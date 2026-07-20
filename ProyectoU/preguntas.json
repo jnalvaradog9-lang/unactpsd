@@ -1,0 +1,1682 @@
+ [
+  {
+      "id":1,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "facil",
+    "pregunta": "¿Qué es un objeto en programación orientada a objetos?",
+    "imagen": "",
+     "imagenRetro": "imagenes/p1.jpg",
+    "video": "",
+    "pista": "Recuerda que en programación orientada a objetos una clase funciona como una plantilla. Un objeto es algo creado a partir de esa plantilla y puede tener datos y acciones propias.",
+    "opciones": [
+      "Una función",
+      "Una instancia de una clase",
+      "Un algoritmo",
+      "Un tipo de dato primitivo"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Una instancia de una clase' debido a que la clase representa únicamente el molde conceptual o plano de diseño abstractos, mientras que el objeto es la entidad concreta, tangible y operativa que se crea en la memoria del computador siguiendo dicho plano. Ejemplo de la vida cotidiana: Piensa en los planos arquitectónicos para construir una casa; el plano en papel es la 'clase', pero la casa física real construida con ladrillos en una calle específica es el 'objeto' o la 'instancia'."
+  },
+  {
+      "id":2,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "¿Qué principio permite ocultar los detalles internos de una clase?",
+    "imagen": "",
+         "imagenRetro": "",
+    "video": "https://www.youtube.com/watch?v=q3TmvtlpJ3M",
+    "pista": "Piensa en el principio que protege los datos internos y controla el acceso.",
+    "opciones": [
+      "Herencia",
+      "Polimorfismo",
+      "Encapsulamiento",
+      "Abstracción"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Encapsulamiento' porque es el mecanismo que agrupa el estado (datos) y el comportamiento (métodos) de un objeto, restringiendo el acceso directo a sus componentes internos desde el exterior y forzando a que cualquier interacción ocurra mediante interfaces públicas seguras. Ejemplo de la vida cotidiana: Una cápsula de medicina médica oculta los componentes químicos en su interior; tú solo te tomas la cápsula (interfaz externa) para sanar sin necesidad de manipular o ver los polvos químicos exactos que contiene."
+  },
+  {
+      "id":3,  "categoria": "Bases de Datos",
+    "nivel": "facil",
+    "pregunta": "¿Qué es una clave primaria en una base de datos?",
+    "imagen": "",
+        "imagenRetro": "imagenes/p2.jpg",
+    "video": "",
+    "pista": "La clave primaria sirve para identificar de forma única cada registro dentro de una tabla. Ningún valor puede repetirse.",
+    "opciones": [
+      "Un campo duplicado",
+      "Un identificador único",
+      "Un tipo de dato",
+      "Una tabla"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Un identificador único' porque una clave primaria (Primary Key) garantiza la integridad de los datos al asegurar que no existan dos filas idénticas en una tabla, impidiendo valores duplicados o nulos en esa columna. Ejemplo de la vida cotidiana: El número de cédula, DNI o pasaporte de un ciudadano; aunque existan personas con el mismo nombre y apellido, ese número es único e irrepetible para cada individuo en el país."
+  },
+  {
+      "id":4,  "categoria": "Desarrollo Web",
+    "nivel": "facil",
+    "pregunta": "¿Cuál es la función principal de CSS en una página web?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=8cSo0ijtkzU",
+    "pista": "Relaciona CSS con la apariencia visual de un sitio web.",
+    "opciones": [
+      "Gestionar bases de datos",
+      "Dar estilo y diseño visual",
+      "Programar lógica del servidor",
+      "Crear conexiones de red"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Dar estilo y diseño visual' ya que CSS (Hojas de Estilo en Cascada) separa la estructura semántica del contenido del formato de presentación, permitiendo controlar colores, tipografías, espaciados y disposiciones de pantalla. Ejemplo de la vida cotidiana: Si una página web fuera un edificio en construcción, HTML serían las paredes de bloques y columnas de concreto básicas, mientras que CSS sería la pintura de las paredes, las ventanas de diseñador y la decoración de interiores."
+  },
+  {
+      "id":5,  "categoria": "Ciberseguridad",
+    "nivel": "facil",
+    "pregunta": "¿Qué función cumple un firewall?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=3q2ENiVBAy8",
+    "pista": "Su función principal está relacionada con proteger y controlar conexiones de red.",
+    "opciones": [
+      "Aumentar velocidad de internet",
+      "Filtrar tráfico y proteger la red",
+      "Crear páginas web",
+      "Administrar archivos"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Filtrar tráfico y proteger la red' debido a que un firewall (cortafuegos) actúa como una barrera de inspección que analiza los paquetes de datos entrantes y salientes según un conjunto de reglas de seguridad predefinidas, bloqueando accesos no autorizados o sospechosos. Ejemplo de la vida cotidiana: Es como el guardia de seguridad o portero en la entrada de un edificio residencial exclusivo; él revisa quién quiere entrar, pide identificación y solo permite el paso a los residentes o visitas autorizadas, denegando el acceso a extraños sospechosos."
+  },
+  {
+      "id":6,  "categoria": "Redes de Computadoras",
+    "nivel": "dificil",
+    "pregunta": "¿Cuál es la función principal del protocolo DHCP?",
+    "imagen": "",
+    "video": "",
+    "imagenRetro":"imagenes/p3.png",
+    "pista": "Piensa en cómo los dispositivos obtienen su dirección IP al conectarse a una red Wi-Fi sin que tengas que configurarla manualmente.",
+    "opciones": [
+      "Asignar direcciones IP automáticamente",
+      "Cifrar contraseñas",
+      "Controlar bases de datos",
+      "Crear páginas web"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Asignar direcciones IP automáticamente'. El protocolo DHCP (Dynamic Host Configuration Protocol) elimina la necesidad de configurar manualmente las redes al entregar dinámicamente configuraciones IP válidas a cualquier dispositivo nuevo que se conecte a la red. Ejemplo de la vida cotidiana: Cuando entras a un hotel y pides una habitación, el recepcionista revisa cuáles están libres y te asigna el número de llave de una de manera inmediata; no tienes que buscar tú mismo un cuarto vacío ni construirlo."
+  },
+  {
+      "id":7,  "categoria": "Sistemas Operativos",
+    "nivel": "medio",
+    "pregunta": "¿Qué es un proceso en un sistema operativo?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=R9SfCGiR3bU",
+    "pista": "Un proceso está relacionado con algo que se encuentra funcionando en memoria.",
+    "opciones": [
+      "Un archivo",
+      "Un programa en ejecución",
+      "Un dispositivo físico",
+      "Un antivirus"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Un programa en ejecución' porque mientras un programa es simplemente un archivo estático guardado en el disco duro (código pasivo), un proceso es la instancia activa de ese programa cargada en la memoria RAM, la cual consume ciclos de CPU, memoria y recursos del sistema operativo. Ejemplo de la vida cotidiana: Una receta de cocina escrita en un libro es el 'programa' (instrucciones estáticas en papel), pero el cocinero preparando activamente los ingredientes en la estufa es el 'proceso' (ejecución en tiempo real)."
+  },
+  {
+      "id":8,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "¿Qué característica permite reutilizar código entre clases?",
+    "imagen": "",
+    "video": "",
+    "imagenRetro":"imagenes/p4.png",
+    "pista": "Permite que una clase hija adquiera los comportamientos de una clase padre.",
+    "opciones": [
+      "Encapsulamiento",
+     
+      "Compilación",
+      "Sobrecarga",
+       "Herencia"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'Herencia' porque este principio fundamental de la POO permite definir una clase nueva (clase hija) que adopta automáticamente todos los atributos públicos y métodos de una clase ya existente (clase padre), evitando escribir código duplicado. Ejemplo de la vida cotidiana: Piensa en la relación entre un 'Vehículo' y un 'Automóvil'. El automóvil hereda las propiedades generales de un vehículo (como tener motor y la capacidad de moverse), pero añade sus propias características específicas (como aire acondicionado o maletero)."
+  },
+  {
+      "id":9,  "categoria": "Bases de Datos",
+    "nivel": "medio",
+    "pregunta": "¿Cuál comando SQL elimina registros de una tabla?",
+    "imagen": "",
+    "video": "",
+        "imagenRetro":"imagenes/p5.png",
+    "pista": "Piensa en el comando utilizado para borrar información existente.",
+    "opciones": [
+      "UPDATE",
+      "SELECT",
+      "DELETE",
+      "CREATE"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'DELETE' porque es la instrucción específica del lenguaje de manipulación de datos (DML) de SQL diseñada para remover una o más filas de una tabla basándose en una condición (cláusula WHERE). Ejemplo de la vida cotidiana: Equivale a seleccionar una fila con un marcador en una lista de asistencia en papel y pasarle un borrador o corrector líquido para desaparecer el nombre de esa persona en específico."
+  },
+  {
+      "id":10,  "categoria": "Desarrollo Web",
+    "nivel": "facil",
+    "pregunta": "¿Qué lenguaje se utiliza para estructurar páginas web?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=10GHKjgQIR0",
+    "pista": "Es el lenguaje base que utiliza etiquetas como <html>, <body> y <h1> para organizar el contenido de una página.",
+    "opciones": [
+      "CSS",
+      "HTML",
+      "SQL",
+      "Python"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'HTML' (HyperText Markup Language) porque es un lenguaje de marcado que utiliza etiquetas especiales para definir el esqueleto elemental del sitio web, indicando dónde van los textos, los títulos, los párrafos y los hipervínculos. Ejemplo de la vida cotidiana: Equivale al plano de distribución de un periódico impreso, donde estableces en qué columna irá la noticia principal, dónde se ubicará la foto y en qué sección va el pie de página."
+  },
+  {
+      "id":11,  "categoria": "Ciberseguridad",
+    "nivel": "medio",
+    "pregunta": "¿Qué es el phishing?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=M2HaMR3H0Cg",
+    "pista": "Es una técnica basada en el engaño donde los atacantes se hacen pasar por entidades de confianza.",
+    "opciones": [
+      "Un antivirus",
+      "Un ataque para robar información",
+      "Un tipo de servidor",
+      "Un sistema operativo"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Un ataque para robar información' porque el phishing es una técnica maliciosa de ingeniería social donde los criminales suplantan la identidad de organizaciones legítimas (como bancos o redes sociales) mediante correos falsos para engañar a los usuarios y hacer que revelen contraseñas o números de tarjetas de crédito. Ejemplo de la vida cotidiana: Es como si alguien se disfrazara meticulosamente con el uniforme exacto de un cartero de tu banco de confianza, llamara a tu puerta y te pidiera que le anotes en un papel tu clave secreta argumentando una supuesta 'actualización del sistema de seguridad'."
+  },
+  {
+      "id":12,  "categoria": "Sistemas Operativos",
+    "nivel": "facil",
+    "pregunta": "¿Cuál de los siguientes es un sistema operativo?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=KmId8zVw0DQ",
+    "pista": "Un sistema operativo administra el hardware y permite ejecutar programas en la computadora.",
+    "opciones": [
+      
+      "Chrome",
+      "MySQL",
+      "HTML",
+      "Windows"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'Windows' porque es el software base principal del sistema encargado de coordinar directamente los componentes de hardware (disco duro, pantalla, teclado) y proveer una plataforma interactiva para que las aplicaciones de los usuarios puedan correr. Ejemplo de la vida cotidiana: El sistema operativo es como el director de una orquesta sinfónica; los músicos y los instrumentos son el hardware y el software, y el director (Windows) se encarga de dar las pautas para que todos actúen coordinadamente y en armonía."
+  },
+  {
+      "id":13,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "¿Qué dispositivo distribuye conexión dentro de una red local?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=n6jd3cdhhE8",
+    "pista": "Es un dispositivo de red utilizado para conectar varios equipos entre sí de forma eficiente dentro de la misma oficina o casa.",
+    "opciones": [
+      "Switch",
+      "Monitor",
+      "Impresora",
+      "Mouse"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Switch' (conmutador) debido a que es el equipo de interconexión que opera en la capa de enlace de datos, diseñado para recibir datos de un dispositivo emisor y redirigirlos exclusivamente al dispositivo destino correcto dentro de la misma red de área local (LAN). Ejemplo de la vida cotidiana: Imagina una oficina postal central de una empresa; el Switch es el cartero que recibe las cartas internas y las entrega en el escritorio de destino exacto basándose en el nombre de la persona, en lugar de gritar el mensaje a toda la oficina."
+  },
+  {
+      "id":14,  "categoria": "Diagramas de Flujo",
+    "nivel": "facil",
+    "pregunta": "¿Qué símbolo representa el inicio o fin en un diagrama de flujo?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=Kucgc6NpGwc",
+    "pista": "Busca la figura redondeada utilizada para marcar los límites de arranque y parada de un proceso.",
+    "opciones": [
+      "Rombo",
+      "Rectángulo",
+      "Óvalo",
+      "Flecha"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Óvalo' (o terminador) porque en la simbología estándar de diagramas de flujo de procesos de la ISO/ANSI, esta figura redondeada se reserva estrictamente para delimitar el punto exacto de partida y de detención de la lógica algorítmica. Ejemplo de la vida cotidiana: Equivale a los carteles reflectores que dicen 'INICIO' y 'FIN' situados en los extremos de una pista de carreras automovilísticas, indicando con claridad dónde empieza el circuito y dónde termina."
+  },
+  {
+      "id":15,  "categoria": "Desarrollo Móvil",
+    "nivel": "facil",
+    "pregunta": "¿Qué sistema operativo utilizan la mayoría de teléfonos Samsung?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=8wZhPYxdL7I",
+    "pista": "La mayoría de teléfonos Samsung utilizan el mismo sistema operativo de código abierto desarrollado por Google.",
+    "opciones": [
+      "Linux",
+      "Windows",
+      "Android",
+      "IOS"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Android' porque Samsung adoptó la plataforma de código abierto de Google como el ecosistema de software central para potenciar sus dispositivos móviles, añadiéndole su propia capa de personalización estética llamada One UI. Ejemplo de la vida cotidiana: Es como la marca de gasolina o el motor base estandarizado que usan diferentes marcas de automóviles comerciales; el chasis externo del auto cambia según el fabricante (Samsung), pero el motor de software interno sigue siendo Android."
+  },
+  {
+      "id":16,  "categoria": "TIC'S",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente definición: 'Entorno tridimensional incierto que un usuario puede sentir y manipular como si fuera real. El usuario ve el entorno en una pantalla, posiblemente montada en un casco especial.' ¿A cuál término hace referencia la definición anterior?",
+    "imagen": "",
+    "video": "",
+    "imagenRetro":"imagenes/p6.png",
+    "pista": "Se asocia con el uso de cascos o visores especiales para sumergirse en un entorno simulado.",
+    "opciones": [
+      "Inteligencia artificial",
+      "Sistema experto",
+      "Realidad virtual",
+      "Simulador"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Realidad virtual' ya que describe de manera exacta el aislamiento sensorial que experimenta una persona al colocarse visores opacos de última tecnología que engañan a los ojos y al cerebro para simular entornos digitales inmersivos e interactivos en 360 grados. Ejemplo de la vida cotidiana: Colocarse unas gafas especiales (como las PlayStation VR u Oculus) para sentir que estás subido en una montaña rusa extrema en medio de una galaxia ficticia, cuando físicamente estás sentado de forma segura en el sofá de tu sala."
+  },
+  {
+      "id":17,  "categoria": "Sistemas Operativos",
+    "nivel": "medio",
+    "pregunta": "Según los mandatos del MS-DOS, ¿cuál comando muestra la cantidad de memoria RAM, la cantidad ocupada y la libre?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=aShLlUZc7S4",
+    "pista": "El nombre del comando proviene directamente de la palabra 'memoria' en inglés.",
+    "opciones": [
+      "SET",
+      "DIR",
+      "MEM",
+      "TIME"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'MEM' porque era la utilidad de línea de comandos integrada en el sistema operativo clásico MS-DOS encargada de inspeccionar y desplegar un resumen técnico descriptivo de la memoria convencional, superior y extendida disponible. Ejemplo de la vida cotidiana: Equivale a abrir el 'Administrador de Tareas' en las computadoras Windows actuales o la sección de almacenamiento del teléfono móvil para ver de forma gráfica cuántos Gigabytes de espacio nos quedan libres para abrir más aplicaciones."
+  },
+  {
+      "id":18,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "¿Cuál tipo de conexión a Internet requiere de un módem para convertir las señales digitales del computador en impulsos de luz que se envían a través de un medio guiado?",
+    "imagen": "",
+    "video": "",
+    "pista": "Busca el medio físico guiado que transmite la información utilizando haces o impulsos de luz.",
+    "opciones": [
+      "Líneas digitales de suscriptor asimétrica",
+      "Red telefónica conmutada",
+      "Por fibras ópticas",
+      "Por vía satélite."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Por fibras ópticas' porque las redes de fibra emplean filamentos de vidrio transparente ultra puros por los cuales viajan haces de luz generados por láseres o LEDs, requiriendo transductores ópticos que traduzcan los bits de la computadora en destellos luminosos de alta velocidad. Ejemplo de la vida cotidiana: Es similar a comunicarse a la distancia usando una linterna por la noche enviando destellos intermitentes en código Morse; el cable de fibra es el tubo oscuro que guía la luz y los destellos rápidos representan los datos digitales viajando."
+  },
+  {
+      "id":19,  "categoria": "Desarrollo Web",
+    "nivel": "medio",
+    "pregunta": "Una empresa diseña un sitio Web que busca inversores, en él ofrece información sobre su actual situación financiera y oportunidades de inversión futuras. De acuerdo con el caso anterior, ¿a cuál tipo de sitio Web se hace referencia?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=tUbNMMpklsc",
+    "pista": "Se enfoca en transacciones, finanzas, atracción de clientes o inversores para una actividad lucrativa.",
+    "opciones": [
+      "Artístico",
+      "Comercial",
+      "Informativo",
+      "De entretenimiento"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Comercial' puesto que el objetivo subyacente de la página está ligado a la actividad lucrativa corporativa, el mercadeo empresarial y la atracción de capital financiero para mejorar el valor comercial de la firma. Ejemplo de la vida cotidiana: Equivale al folleto impreso institucional de negocios o balance corporativo anual que las grandes empresas presentan en conferencias de negocios de hoteles de lujo para convencer a banqueros de otorgarles créditos."
+  },
+  {
+      "id":20,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "Lea las siguientes características relacionadas con un estándar de comunicación: Admite velocidades de hasta 3Mb/s y proporciona emparejamiento de dispositivos a distancia de entre 1 y 100 metros bajo el estándar IEEE 802.15. ¿Cuál estándar de comunicación cumple con ello?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es una tecnología inalámbrica de corto alcance muy común para emparejar periféricos como audífonos o teléfonos.",
+    "opciones": [
+      "Wi-Fi",
+      "Wi Max",
+      "Bluetooth",
+      "Frecuencia modulada"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Bluetooth' debido a que el grupo de trabajo IEEE 802.15 se especializa en Redes de Área Personal Inalámbricas (WPAN), diseñadas con tecnologías de bajo consumo energético para interconexiones de corto alcance sin necesidad de cables físicos. Ejemplo de la vida cotidiana: Es la tecnología inalámbrica exacta que se activa cuando subes a tu automóvil y tu teléfono celular se conecta de forma inmediata a la pantalla del radio para reproducir tu música o contestar llamadas sin conectarle cables."
+  },
+  {
+      "id":21,  "categoria": "Programación",
+    "nivel": "facil",
+    "pregunta": "Considere la siguiente proposición: 'Está lloviendo o es de noche'. ¿Cuál simbología lógica representa de manera correcta la anterior proposición?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=nsB5Or3uZiM",
+    "pista": "La letra 'v' minúscula se utiliza formalmente para representar el operador lógico de la disyunción ('o').",
+    "opciones": [
+      "p v q",
+      "p ^ q",
+      "~(p v q)",
+      "(p v q)"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'p v q'. En la lógica matemática y proposicional utilizada en programación, la letra 'p' y la 'q' sustituyen los enunciados de los hechos, mientras que el símbolo 'v' representa el conector de disyunción lógica ('OR'), el cual evalúa como verdadero si al menos una de las dos condiciones se cumple. Ejemplo de la vida cotidiana: Cuando un mesero te dice que el menú de almuerzo incluye 'Sopa o Ensalada'; con que elijas una de las dos alternativas, la condición del servicio se está cumpliendo de forma válida."
+  },
+  {
+      "id":22,  "categoria": "Bases de Datos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente definición: 'Tipo abstracto de dato que contiene atributos y métodos, implementa un concept abstraído de la realidad. En este caso, los atributos hacen referencia a las características del concepto y los métodos a sus servicios.' ¿A qué concepto de POO se refiere?",
+    "imagen": "",
+    "video": "",
+        "imagenRetro":"imagenes/p4.png",
+    "pista": "Es la plantilla o molde principal que define la estructura y comportamiento de los objetos.",
+    "opciones": [
+      "Clase",
+      "Atributo",
+      "Método",
+      "Sobrecarga"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Clase' porque representa el plano constructivo teórico que agrupa la estructura estática (atributos como color, tamaño) y el comportamiento funcional dinámico (métodos como correr, calcular) común a un conjunto determinado de elementos. Ejemplo de la vida cotidiana: El concepto abstracto de 'Receta de pastel'; la receta te indica qué ingredientes lleva (atributos) y qué pasos de horneado debes seguir (métodos), pero no es un pastel real hasta que uses el molde para cocinarlo."
+  },
+  {
+      "id":23,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente definición: 'Referencia e instancia de una clase. Al crear una referencia se asigna un espacio de memoria dinámica a este, pero no es utilizable. Al crear la instancia, este es utilizable.' ¿A cuál concepto hace referencia?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=tTkryyqMHNI",
+    "pista": "Es la entidad concreta y tangible que nace a partir del molde de una clase.",
+    "opciones": [
+      "Clase",
+      "Objeto",
+      "Atributo",
+      "Método"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Objeto'. Cuando se ejecuta el operador de instanciación (como 'new' en código), el sistema reserva espacio en memoria RAM física, asignando valores específicos a los atributos conceptuales de la clase y dándole vida operativa al objeto en cuestión. Ejemplo de la vida cotidiana: Si la clase es el concepto abstracto de 'Teléfono Inteligente', el objeto utilizable real es el aparato físico con pantalla de cristal de color negro y número de serie único que sostienes actualmente en tu mano."
+  },
+  {
+      "id":24,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente definición: 'Proceso que permite se puedan definir nuevas clases basadas en clases existentes, con el fin de reutilizar el código previamente desarrollado, generando una jerarquía de clases dentro de la aplicación.' ¿A cuál concepto hace referencia?",
+    "imagen": "",
+    "video": "",
+    "imagenRetro":"imagenes/p4.png",
+    "pista": "Permite que una clase hija reciba de forma directa las características y funciones de una clase padre.",
+    "opciones": [
+      "Clase",
+      "Objeto",
+      "Atributo",
+      "Herencia"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'Herencia' debido a que es la estructura de programación que modela relaciones del tipo 'es un/a', permitiendo que clases derivadas asimilen las capacidades de clases base y se enfoquen únicamente en añadir sus funciones particulares. Ejemplo de la vida cotidiana: Piensa en la relación familiar; heredas los rasgos físicos básicos de tus padres biológicos (como la estructura ósea o el color de ojos), pero tú desarrollas tus propios talentos individuales particulares."
+  },
+  {
+      "id":25,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente definición: 'Su objetivo consiste en poder acceder a diferentes servicios en tiempo de ejecución sin necesidad de implementar diferentes referencias a objetos. Esta característica provee una gran flexibilidad.' ¿A cuál concepto de POO hace referencia?",
+    "imagen": "",
+    "video": "",
+      "imagenRetro":"imagenes/p4.png",
+    "pista": "La palabra significa 'muchas formas' y permite invocar métodos con el mismo nombre pero comportamientos distintos.",
+    "opciones": [
+      "Polimorfismo",
+      "Abstracción",
+      "Herencia",
+      "Objeto"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Polimorfismo'. Este principio permite tratar a objetos de clases hijas distintas como si fueran miembros de una única clase padre común, respondiendo de formas completamente diferentes al llamado de un método con el mismo nombre. Ejemplo de la vida cotidiana: Si le das la orden de '¡Hablar!' a un perro, a un gato y a un loro (todos pertenecientes a la clase padre Animal), el perro ladrará, el gato maullará y el loro repetirá una palabra; la misma orden produce acciones muy distintas según quién la reciba."
+  },
+  {
+      "id":26,  "categoria": "Diagramas de Flujo",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente información acerca de la cultura de la calidad: 'Es una representación gráfica que muestra todas las etapas de un proceso de manufactura o prestación de un servicio. Permite documentar un proceso mediante símbolos.' ¿A cuál herramienta corresponde?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es una herramienta visual compuesta por figuras geométricas (óvalos, rectángulos, rombos) unidas por flechas de flujo.",
+    "opciones": [
+      "Histograma",
+      "Gráfico de control",
+      "Diagrama de flujo",
+      "Tormenta de ideas"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Diagrama de flujo' porque representa la herrmienta visual estandarizada por excelencia de la ingeniería que mapea paso a paso de forma secuencial las tareas lógicas de un sistema usando bloques conectados por flechas. Ejemplo de la vida cotidiana: Un manual visual de una mueblería que te indica paso por paso con flechas e imágenes cómo desempaquetar las piezas, qué tornillo ajustar primero y qué hacer si una tabla no encaja correctamente."
+  },
+  {
+      "id":27,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "Observe las siguientes características sobre un tipo de diseño de proyecto informático:\n- Existe una secuencia ordenada de transiciones de una fase a la otra, según el orden lineal.\n- Los requerimientos se congelan hasta su terminación.\n- Se detectan los errores cuando se termina el proyecto.\n¿A cuál ciclo de vida o modelo de diseño hace referencia?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es el enfoque tradicional lineal donde el agua cae de un nivel al siguiente sin posibilidad de volver atrás facilmente.",
+    "opciones": [
+      "Cascada",
+      "Prototipado",
+      "Entrega evolutiva",
+      "Por planificación"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Cascada' (o Waterfall) debido a que es un enfoque metodológico de desarrollo rígido y puramente secuencial, en el cual no se puede avanzar a fases posteriores (como codificación o pruebas) hasta que la fase precedente (como la recolección de requisitos) se encuentre cerrada al 100%. Ejemplo de la vida cotidiana: Es idéntico a construir un puente de concreto sobre un río; no puedes cambiar la cimentación subterránea de las bases una vez que ya estás vertiendo el asfalto de los carriles superiores al final de la obra."
+  },
+  {
+      "id":28,  "categoria": "Desarrollo Web",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente información: 'Paradigma de la web que responde a la idea de una web estática o de una sola vía, donde el usuario es solo un espectador que recibe o lee contenidos publicados por el Webmaster o dueño del sitio.' ¿A qué tipo de web se hace referencia?",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=YZmKmecDxHI",
+    "pista": "Fue la primera etapa de la World Wide Web, caracterizada por la falta de interactividad con los usuarios.",
+    "opciones": [
+      "Web 1.0",
+      "Web 2.0",
+      "Web 3.0",
+      "Web 4.0"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Web 1.0' porque representa los inicios de Internet en los años 90, cuando las páginas se limitaban a mostrar hipertextos estáticos sin bases de datos interactivas ni perfiles de usuario, dejando al visitante un rol estrictamente pasivo de lectura. Ejemplo de la vida cotidiana: Imagina leer un gran tablero de anuncios público de corcho en la pared de un supermercado; puedes leer los papeles informativos grapados, pero no tienes permitido escribir opiniones, dar 'likes' ni responderle a los anuncios."
+  },
+  {
+      "id":29,  "categoria": "Sistemas Operativos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente información sobre administración de memoria:\n- Corta un programa en segmentos llamados páginas.\n- Utiliza un disco duro como una extensión de la memoria principal.\n- Es una técnica que permite ejecutar varios programas simultáneamente sin importar su tamaño.\n¿A cuál concepto hace referencia?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es una simulación de memoria física creada mediante el almacenamiento secundario o disco duro.",
+    "opciones": [
+      "Paginación",
+      "Subproceso",
+      "Segmentación",
+      "Memoria virtual"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'Memoria virtual' porque es una sofisticada técnica de los sistemas operativos que mapea las direcciones de memoria de las aplicaciones hacia bloques físicos temporales del disco duro (archivo de paginación), permitiendo abrir más herramientas de las que físicamente caben en la RAM real. Ejemplo de la vida cotidiana: Si tienes un escritorio pequeño de trabajo (Memoria RAM) lleno de documentos activos pero necesitas consultar otro archivador grande, dejas los papeles que no usas en una repisa cercana (Disco Duro / Memoria Virtual) para hacer espacio momentáneo y los recuperas cuando los necesites."
+  },
+  {
+      "id":30,  "categoria": "Bases de Datos",
+    "nivel": "medio",
+    "pregunta": "Lea la siguiente información sobre base de datos: 'Es una cosa u objeto en el mundo real, que es distinguible de otros objetos (for ejemplo, cada persona). Se describen mediante un conjunto de atributos.' ¿A cuál concepto del modelo entidad-relación se hace referencia?",
+    "imagen": "",
+    "video": "",
+    "pista": "Representa el objeto o concepto del mundo real que modelamos dentro de una tabla en la base de datos.",
+    "opciones": [
+      "Entidad",
+      "Relación",
+      "Clave primaria",
+      "Clave candidata"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es 'Entidad' ya que en el diseño de bases de datos conceptuales, la entidad abstrae la existencia independiente de objetos del entorno real (ya sean físicos como un 'Cliente' o lógicos como una 'Venta') para estructurarlos como filas dentro del sistema de almacenamiento. Ejemplo de la vida cotidiana: Un automóvil de exhibición en una agencia de ventas; el auto es la 'entidad' tangible del mundo real y sus características como el color de pintura, el año de fábrica y el precio representan sus atributos."
+  }
+,
+  {
+    "id":31,  "categoria": "Bases de Datos",
+  "nivel": "medio",
+  "pregunta": "Lea la siguiente definición: 'Es un conjunto de campos relacionados y se representa por las filas de una tabla.' ¿Cuál es el elemento de bases de datos descrito?",
+  "imagen": "",
+  "video": "",
+  "pista": "También se le conoce comúnmente con el término de 'tupla' o fila dentro de una tabla relacional.",
+  "opciones": [
+    "Registro",
+    "Archivo",
+    "Campo",
+    "Datos"
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es 'Registro' porque en una base de datos cada fila de una tabla representa un conjunto completo de información relacionada con un mismo elemento. Un registro está formado por varios campos que almacenan datos específicos. Por ejemplo, en una tabla de estudiantes, un registro puede contener el nombre, edad, correo y número de identificación de un estudiante. Todas esas características juntas forman una sola fila o registro dentro de la tabla."
+},
+{
+    "id":32,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "Al utilizar Internet, una pauta de seguridad fundamental establece que se debe comprobar que los archivos o contenidos multimedia descargados provengan de fuentes confiables y legales, previniendo la transferencia de virus, troyanos o spyware. ¿A qué buena práctica hace referencia principalmente?",
+  "imagen": "",
+  "video": "",
+  "pista": "Busca mitigar riesgos de malware asegurando la legitimidad del origen de los programas.",
+  "opciones": [
+    "Que la computadora funcione rápido",
+    "Que el software usado sea costoso",
+    "Que el equipo tenga banda ancha",
+    "Que los medios provengan de fuentes confiables y legales"
+  ],
+  "correcta": 3,
+  "retroalimentacion": "La respuesta correcta es 'Que los medios provengan de fuentes confiables y legales' porque descargar archivos desde sitios desconocidos puede introducir virus, spyware o troyanos en la computadora. Las fuentes oficiales o legales ofrecen mayor seguridad y reducen el riesgo de infecciones. Por ejemplo, descargar un programa desde la página oficial del fabricante es mucho más seguro que hacerlo desde un sitio desconocido lleno de publicidad o enlaces sospechosos."
+},
+{
+    "id":33,  "categoria": "Desarrollo Web",
+  "nivel": "medio",
+  "pregunta": "En una comunidad rural de Costa Rica, se instaló una red de internet de alta velocidad. A partir de este cambio, los jóvenes pudieron acceder a cursos en línea, las pequeñas empresas comenzaron a vender sus productos en plataformas digitales y los vecinos mejoraron la comunicación con familiares en el extranjero. Según el caso, la influencia positiva de las TIC se refleja principalmente en que:",
+  "imagen": "",
+  "video": "",
+  "pista": "Piensa en cómo el internet y la tecnología conectan a las personas y les abren puertas comerciales y educativas.",
+  "opciones": [
+    "Reemplazan los métodos tradicionales de producción y enseñanza.",
+    "Aumentan la conectividad y facilitan el acceso a la educación y al comercio.",
+    "Garantizan que todos los ciudadanos usen las mismas tecnologías sin diferencias.",
+    "Disminuyen la necesidad de interacción social entre los miembros de la comunidad."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Aumentan la conectividad y facilitan el acceso a la educación y al comercio' porque el caso describe cómo el internet permitió que las personas estudiaran en línea, vendieran productos y mejoraran la comunicación. Las TIC ayudan a conectar comunidades y brindar nuevas oportunidades educativas y económicas. Por ejemplo, una pequeña tienda puede vender productos por internet a personas de otras ciudades o incluso otros países gracias al uso de plataformas digitales."
+},
+{
+    "id":34,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "Una empresa en Costa Rica desarrolla un sistema informático para la gestión de inventarios. Durante una auditoría se descubre que la compañía instaló en varias computadoras programas de ofimática sin contar con licencias originales, lo que podría acarrear sanciones legales. Según el caso, la situación está vinculada principalmente con:",
+  "imagen": "",
+  "video": "",
+  "pista": "El problema gira en torno al uso legal o ilegal de programas comerciales y sus correspondientes permisos de uso.",
+  "opciones": [
+    "Estrategias de capacitación para los trabajadores.",
+    "Procedimientos administrativos internos de la empresa.",
+    "Legislación en materia de software y licenciamiento.",
+    "Políticas de mantenimiento preventivo del hardware."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es 'Legislación en materia de software y licenciamiento' porque utilizar programas sin licencia viola las normas de propiedad intelectual y derechos de autor. Las empresas deben adquirir permisos legales para usar software comercial. Por ejemplo, instalar Microsoft Office en varias computadoras sin comprar las licencias correspondientes puede generar multas o problemas legales durante una auditoría."
+},
+{
+    "id":35,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "En un laboratorio de informática en Costa Rica, varios equipos quedaron inutilizables porque los archivos del sistema fueron modificados por un malware. El encargado debe aplicar un procedimiento inmediato para restaurar el funcionamiento normal de las computadoras. Según el caso, la acción más adecuada sería:",
+  "imagen": "",
+  "video": "",
+  "pista": "Cuando el sistema operativo está severamente comprometido y dañado por malware, la solución más limpia y segura es empezar desde cero.",
+  "opciones": [
+    "Formatear los equipos y reinstalar el sistema operativo junto con el software autorizado.",
+    "Desactivar temporalmente el internet y borrar manualmente las carpetas de usuarios afectados.",
+    "Eliminar únicamente los accesos directos sospechosos y seguir usando el equipo normalmente.",
+    "Cambiar los componentes físicos internos como el procesador o la memoria RAM."
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es 'Formatear los equipos y reinstalar el sistema operativo junto con el software autorizado' porque cuando un malware daña archivos importantes del sistema, la forma más segura de recuperar el funcionamiento es eliminar completamente la infección e instalar nuevamente el sistema operativo. Por ejemplo, si un virus altera Windows y provoca errores constantes, formatear el disco y reinstalar el sistema garantiza que el equipo vuelva a estar limpio y funcionando correctamente."
+},
+{
+    "id":36,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "Una empresa utiliza computadoras con sistema operativo de ambiente gráfico. El encargado de TI debe verificar qué aplicaciones están en ejecución, cerrar aquellas que no responden y revisar el consumo de recursos del sistema. De acuerdo con lo descrito, lo procedente desde lo técnico es utilizar:",
+  "imagen": "",
+  "video": "",
+  "pista": "Es la utilidad del sistema que centraliza el monitoreo de la memoria, el uso de CPU y permite finalizar tareas colgadas.",
+  "opciones": [
+    "El explorador de archivos para eliminar carpetas de instalación.",
+    "El navegador de internet para actualizar manualmente las aplicaciones.",
+    "El panel de control para desinstalar los programas del sistema.",
+    "El administrador de tareas o gestor de procesos del sistema operativo."
+  ],
+  "correcta": 3,
+  "retroalimentacion": "La respuesta correcta es 'El administrador de tareas o gestor de procesos del sistema operativo' porque esta herramienta permite observar los programas que están funcionando, el uso de memoria RAM, CPU y cerrar aplicaciones bloqueadas. Por ejemplo, si una aplicación deja de responder y la computadora se vuelve lenta, el administrador de tareas permite finalizar el proceso para recuperar el control del sistema."
+},
+{
+    "id":37,  "categoria": "Desarrollo Web",
+  "nivel": "dificil",
+  "pregunta": "En un curso de informática en Costa Rica, se asigna a los estudiantes el diseño de una página web que presente información institucional. El proyecto debe cumplir con estándares básicos de accesibilidad, organización y compatibilidad con navegadores actuales. Según el caso, la opción correcta para realizar el diseño es:",
+  "imagen": "",
+  "video": "",
+  "pista": "Son las tecnologías fundamentales y estandarizadas de la World Wide Web para estructurar contenido y aplicar diseño visual.",
+  "opciones": [
+    "Insertar el texto en presentaciones de PowerPoint y exportarlas como imágenes en línea.",
+    "Usar únicamente un editor de texto plano sin aplicar ningún estándar de marcado o estilo.",
+    "Emplear etiquetas HTML y hojas de estilo CSS para estructurar y dar formato a la página.",
+    "Desarrollar un ejecutable de escritorio y subirlo a un servidor de archivos en la nube."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es 'Emplear etiquetas HTML y hojas de estilo CSS para estructurar y dar formato a la página' porque HTML organiza el contenido de la página y CSS permite darle diseño visual y mejorar la apariencia. Ambos son estándares oficiales utilizados en el desarrollo web moderno. Por ejemplo, HTML se usa para crear títulos, párrafos e imágenes, mientras que CSS permite cambiar colores, tamaños, posiciones y estilos para que el sitio sea más atractivo y accesible."
+},
+{
+    "id":38,  "categoria": "Redes de Computadoras",
+  "nivel": "dificil",
+  "pregunta": "Una empresa en Costa Rica debe conectar varios dispositivos móviles a la red interna para compartir documentos y realizar videoconferencias. El administrador de TI busca una opción que garantice compatibilidad y un flujo de datos estable entre todos los equipos. Según el caso, la opción correcta de conectividad es:",
+  "imagen": "",
+  "video": "",
+  "pista": "Busca la tecnología de red inalámbrica estándar más común y óptima para dar acceso a internet y datos a celulares o laptops en un área local.",
+  "opciones": [
+    "Wi-Fi.",
+    "Infrarrojo.",
+    "Puerto paralelo.",
+    "Cable coaxial directo."
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es 'Wi-Fi' porque es la tecnología inalámbrica más utilizada para conectar celulares, laptops y otros dispositivos a una red local e internet. Permite compartir archivos, navegar y realizar videollamadas sin necesidad de cables físicos. Por ejemplo, en una oficina moderna, los empleados conectan sus teléfonos y computadoras al router Wi-Fi para trabajar y acceder a recursos compartidos de la empresa."
+},
+
+  {
+      "id":39,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "Un grupo de estudiantes en Costa Rica investiga sobre las tecnologías presentes en los teléfonos inteligentes de última generación. En su exposición deben explicar cuál de ellas permite realizar pagos electrónicos y transferencias de datos a muy corta distancia entre dispositivos compatibles. Según el caso, la opción correcta es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Sus siglas significan 'Comunicación de Campo Cercano' y requiere que los dispositivos estén casi tocándose.",
+    "opciones": [
+      "Bluetooth, principalmente para conexiones de mayor alcance.",
+      "GPS, empleado para geolocalización y navegación en tiempo real.",
+      "NFC (Near Field Communication).",
+      "Infrarrojo, usado para el control remoto de televisores."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'NFC (Near Field Communication)' porque esta tecnología fue creada específicamente para intercambiar información entre dispositivos que se encuentran a muy corta distancia, normalmente a pocos centímetros. NFC es muy utilizada en pagos electrónicos sin contacto, por ejemplo cuando una persona acerca su teléfono celular o tarjeta bancaria a un datáfono para pagar en un supermercado. También permite transferir datos de forma rápida y segura entre dispositivos compatibles. Las demás opciones no corresponden al caso: Bluetooth funciona a distancias mayores y se usa más para audífonos o parlantes; GPS sirve para ubicación geográfica; y el infrarrojo se emplea principalmente en controles remotos."
+  },
+
+  {
+      "id":40,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "Una empresa de software diseña un sistema que solo concede acceso si el usuario ingresa la clave correcta y además tiene el rol de administrador. El analista debe expresar esta condición en lógica proposicional. Según el caso, la opción correcta para representar la condición es:",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=pwmeMe80TK4",
+    "pista": "La palabra clave es 'además'. Necesitas un operador lógico de conjunción (Y) que exija el cumplimiento obligatorio de ambas premisas.",
+    "opciones": [
+      "Clave v RolAdmin",
+      "Clave ∧ RolAdmin",
+      "Clave → RolAdmin",
+      "¬Clave ∧ RolAdmin"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Clave ∧ RolAdmin' porque el símbolo '∧' representa la conjunción lógica, equivalente a la palabra 'Y'. Esto significa que ambas condiciones deben cumplirse simultáneamente para permitir el acceso. En este caso, el usuario necesita ingresar correctamente la contraseña y además tener permisos de administrador. Por ejemplo, si una persona tiene la contraseña correcta pero no posee privilegios de administrador, el sistema debe negar el acceso. Igualmente, si es administrador pero escribe mal la clave, tampoco podrá ingresar. Las otras opciones no son correctas porque 'v' significa 'o', lo cual permitiría cumplir solo una condición; '→' representa implicación lógica; y '¬Clave' indica que la clave es incorrecta."
+  },
+
+  {
+      "id":41,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "Un técnico necesita simplificar una función lógica de tres variables mediante un mapa de Karnaugh. La función es la siguiente: F = A'B'C' + A'B'C + A'BC' + A'BC. Al aplicar la simplificación mediante el mapa de Karnaugh el técnico obtiene el siguiente resultado:",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=pwmeMe80TK4",
+    "pista": "Observa con cuidado los cuatro términos. En todos ellos la variable A siempre aparece negada (A'), mientras que las combinaciones de B y C cubren todas sus posibilidades, anulándose entre sí.",
+    "opciones": [
+      "F = B negada",
+      "F = C negada",
+      "F = A (sin negar)",
+      "F = A negada"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'F = A negada' porque en todos los términos de la función la variable A aparece siempre negada como A'. Mientras tanto, las variables B y C aparecen tanto negadas como sin negar, cubriendo todas las posibles combinaciones. Cuando esto ocurre en álgebra booleana o en un mapa de Karnaugh, esas variables se eliminan durante la simplificación porque dejan de afectar el resultado final. Por esta razón, únicamente permanece la variable que se mantiene constante en todos los términos, es decir A'. Un ejemplo sencillo sería pensar en un grupo de personas donde todos pertenecen al mismo equipo, aunque cambien otras características como edad o puesto; lo único constante es el equipo al que pertenecen."
+  },
+
+  {
+      "id":42,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "En un taller de lógica digital en Costa Rica, una estudiante debe reescribir la expresión de un sensor de seguridad para poder implementarla con compuertas estándar. El circuito actual utiliza la negación de una conjunción: ¬(A ∧ B). Se le solicita expresar de forma equivalente la condición anterior para facilitar el diseño. Según el caso, la opción correcta es:",
+    "imagen": "",
+    "video": "https://www.youtube.com/watch?v=pwmeMe80TK4",
+    "pista": "Aplica las leyes de De Morgan: la negación de una conjunción cambia a la disyunción de las variables negadas individualmente.",
+    "opciones": [
+      "¬A ∧ ¬B",
+      "¬A v ¬B",
+      "A ∧ B",
+      "¬A v B"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es '¬A v ¬B' porque, según las Leyes de De Morgan, cuando se niega una conjunción (A ∧ B), esta se transforma en una disyunción de las variables negadas individualmente. Es decir, 'NO (A Y B)' equivale a decir 'NO A O NO B'. Esto significa que el resultado será verdadero si al menos una de las condiciones no se cumple. Por ejemplo, imagine un sistema de seguridad que requiere que una puerta esté cerrada y que la alarma esté activada. Si alguna de las dos condiciones falla, el sistema detectará un problema."
+  },
+
+  {
+      "id":43,  "categoria": "Programación",
+    "nivel": "dificil",
+    "pregunta": "Un estudiante en Costa Rica debe programar un algoritmo que calcule la suma de los números pares entre 1 y 10. Para ello, diseña el siguiente pseudocódigo:\nsum = 0\nPara i desde 1 hasta 10 hacer\n  Si (i mod 2 = 0) Entonces\n    sum = sum + i\n  FinSi\nFinPara\nImprimir sum\nSegún el caso, la opción correcta para el resultado final del algoritmo es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Suma los números pares dentro de ese rango: 2 + 4 + 6 + 8 + 10.",
+    "opciones": [
+      "20",
+      "25",
+      "30",
+      "55"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es '30' porque el algoritmo recorre todos los números desde 1 hasta 10 mediante un ciclo. En cada repetición verifica si el número es par usando la condición 'i mod 2 = 0'. El operador MOD obtiene el residuo de una división, y cuando el residuo es 0 significa que el número es divisible entre 2, es decir, es par. Por eso el algoritmo únicamente suma los valores 2, 4, 6, 8 y 10. La suma paso a paso sería: 2 + 4 = 6, luego 6 + 6 = 12, después 12 + 8 = 20 y finalmente 20 + 10 = 30. Los números impares no se toman en cuenta porque no cumplen la condición."
+  },
+
+  {
+      "id":44,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "En un curso de programación en Costa Rica, se pide implementar un algoritmo que clasifique un número leído por teclado como negativo, cero o positivo. El estudiante propone el siguiente pseudocódigo y hace una prueba con n = -3:\nLeer n\nSi n = 0 Entonces\n  Imprimir 'Es cero'\nSino\n  Si n > 0 Entonces\n    Imprimir 'Número estrictamente positivo'\n  Sino\n    Imprimir 'Número negativo'\n  FinSi\nFinSi\nSegún el caso, la opción correcta es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Sigue el flujo lógico: como -3 no es igual a 0, va al primer 'Sino'. Luego, como -3 no es mayor a 0, cae en el 'Sino' interno.",
+    "opciones": [
+      "Es cero",
+      "Número estrictamente positivo",
+      "Error de compilación por falta de datos",
+      "Número negativo"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'Número negativo' porque el valor ingresado es -3. El algoritmo primero verifica si el número es igual a 0, pero esa condición no se cumple. Luego pasa al siguiente bloque y pregunta si el número es mayor que 0; como -3 es menor que cero, tampoco cumple esa condición. Finalmente, el programa ejecuta la última alternativa e imprime 'Número negativo'. Este tipo de estructuras condicionales son muy utilizadas en sistemas reales, por ejemplo para clasificar balances bancarios en positivos, negativos o en cero."
+  },
+
+  {
+      "id":45,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "medio",
+    "pregunta": "Un técnico está desarrollando una aplicación para venta de vehículos premium en Costa Rica por medio del modelo de programación orientada a objetos... al manejar un inventario de vehículos tan alto, debe de definir una estructura que agrupe atributos y métodos relacionados a un mismo concepto del mundo real. ¿Qué elemento de la POO debe utilizar el técnico para cumplir con dicha estructura?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es el molde o plantilla abstracta en donde se declaran qué variables (atributos) y funciones (métodos) va a tener una entidad.",
+    "opciones": [
+      "Objeto",
+      "Variable",
+      "Clase",
+      "Arreglo"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Clase' porque en programación orientada a objetos una clase funciona como un molde o plantilla que define las características y comportamientos de un objeto. En este caso, el técnico necesita organizar información relacionada con vehículos, como marca, modelo, color, precio y métodos para mostrar o actualizar datos. Todo eso se define dentro de una clase. Por ejemplo, una clase llamada 'Vehiculo' puede contener atributos como color y velocidad, además de métodos como acelerar o frenar. Luego, a partir de esa clase, se crean objetos concretos como un Toyota, un Hyundai o un BMW. Las demás opciones no son correctas porque una variable solo almacena un dato, un arreglo guarda colecciones y un objeto es la instancia creada a partir de la clase."
+  },
+
+  {
+      "id":46,  "categoria": "Programación Orientada a Objetos",
+    "nivel": "dificil",
+    "pregunta": "Un estudiante escribe un fragmento de código para calcular el promedio de dos números, declarando una variable entera 'x = 4', una variable decimal 'y = 5.5' y una variable entera 'promedio = (x + y) / 2'. Al compilar, el programa genera un error porque el tipo de dato asignado a la variable promedio no es el correcto. Según el caso, la opción correcta para corregir el error es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Al sumar un entero con un número decimal (5.5), el resultado tendrá decimales. Por tanto, la variable que almacena el resultado final debe soportar punto flotante.",
+    "opciones": [
+      "Eliminar la variable y y solo usar x.",
+      "Declarar promedio como decimal en lugar de entero.",
+      "Cambiar x a tipo decimal y mantener promedio como entero.",
+      "Convertir la fórmula a una cadena de texto."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es 'Declarar promedio como decimal en lugar de entero' porque la operación matemática involucra un número decimal (5.5). Cuando se suma un entero con un decimal, el resultado también será decimal. Por ejemplo: 4 + 5.5 = 9.5 y luego 9.5 / 2 = 4.75. Un tipo de dato entero no puede almacenar números con punto decimal, por eso ocurre el error de compilación o pérdida de precisión. La solución correcta es declarar la variable promedio como decimal o flotante para que pueda almacenar valores como 4.75."
+  },
+
+  {
+      "id":47,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "En un curso de programación, un estudiante escribe un fragmento de código para calcular la suma de los primeros 5 números naturales:\nentero suma = 0\npara i desde 1 hasta 5 hacer\n  suma = suma + i\nfin para\nimprimir(suma)\nEl profesor le pide identificar cuál será el resultado final después de ejecutar el programa. Según el caso, la opción correcta es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Realiza la iteración sumando secuencialmente: 1 + 2 + 3 + 4 + 5.",
+    "opciones": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es '15' porque el ciclo se ejecuta cinco veces y en cada repetición se suma el valor actual de la variable i. El proceso ocurre así: inicialmente suma vale 0; luego se suma 1, después 2, luego 3, posteriormente 4 y finalmente 5. El cálculo completo es: 1 + 2 + 3 + 4 + 5 = 15. Este tipo de algoritmos se utiliza frecuentemente para acumuladores, por ejemplo al calcular el total de compras de varios productos en una factura."
+  },
+
+  {
+      "id":48,  "categoria": "Programación",
+    "nivel": "medio",
+    "pregunta": "En una empresa de Costa Rica se desarrolla un módulo de ventas. El proceso debe: 1. leer los datos del cliente y de los artículos, 2. validar si hay stock suficiente (mostrar mensaje si no lo hay), y 3. recorrer la lista de productos para sumar el total y generar el comprobante. Según el caso, la opción correcta que identifica los tipos de flujo presentes es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Identifica los tres componentes: el paso a paso inicial, la toma de decisiones basada en el stock, y el bucle para procesar la lista.",
+    "opciones": [
+      "Condicional e iterativo.",
+      "Secuencial y condicional.",
+      "Secuencial, condicional e iterativo.",
+      "Iterativo y recursivo."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es 'Secuencial, condicional e iterativo' porque en el problema aparecen los tres tipos principales de estructuras de control. Primero existe un flujo secuencial al leer los datos del cliente y los productos paso a paso. Luego aparece un flujo condicional cuando el sistema valida si hay stock disponible y decide mostrar un mensaje en caso contrario. Finalmente, existe un flujo iterativo porque el sistema debe recorrer todos los productos para calcular el total de la compra y generar el comprobante. Un ejemplo cotidiano sería el proceso de compra en un supermercado, donde primero se registran los artículos, luego se valida disponibilidad y finalmente se suman todos los productos."
+  },
+
+  {
+      "id":49,  "categoria": "Bases de Datos",
+    "nivel": "facil",
+    "pregunta": "Un equipo en Costa Rica desarrolla un módulo para consultar y filtrar registros de una base de datos relacional (clientes, pedidos y facturas) desde una aplicación web. El líder pide identificar el lenguaje apropiado para realizar las consultas y obtener los datos que luego serán mostrados en la interfaz. Según el caso, la opción correcta es:",
+    "imagen": "",
+    "video": "",
+    "pista": "Es el lenguaje estándar universal usado para interactuar y extraer información de bases de datos relacionales.",
+    "opciones": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "SQL"
+    ],
+    "correcta": 3,
+    "retroalimentacion": "La respuesta correcta es 'SQL' (Structured Query Language) porque es el lenguaje diseñado específicamente para trabajar con bases de datos relacionales. SQL permite realizar consultas, insertar registros, modificar información y eliminar datos almacenados en tablas. Por ejemplo, si una empresa desea mostrar todos los clientes que realizaron compras este mes, se utiliza una consulta SQL para obtener esa información desde la base de datos. Las demás opciones no cumplen esa función: HTML estructura páginas web, CSS aplica estilos visuales y JavaScript agrega interactividad, pero ninguno está especializado en consultar bases de datos como SQL."
+  }
+,
+{
+    "id":50,  "categoria": "Bases de Datos",
+  "nivel": "medio",
+  "pregunta": "Un banco requiere que la información de sus clientes no pueda ser modificada de forma incorrecta y que siempre se cumpla la regla de que cada cuenta debe estar asociada a un único número de cliente. ¿Qué ventaja garantizan las bases de datos en este caso?",
+  "imagen": "",
+  "video": "",
+  "pista": "La consistencia, exactitud y validez de las reglas de negocio impuestas sobre los datos almacenados se asocian con un concepto de entereza o pureza.",
+  "opciones": [
+    "Optimización en la velocidad de los reportes",
+    "Integridad de los datos almacenados en el sistema",
+    "Reducción de los costos de almacenamiento en servidores de respaldo",
+    "Duplicación masiva de archivos de texto"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Integridad de los datos almacenados en el sistema' porque la integridad de datos garantiza que la información almacenada en la base de datos sea correcta, consistente y válida en todo momento. En el caso planteado, el banco necesita evitar errores como cuentas asociadas a clientes incorrectos o datos modificados indebidamente. Las bases de datos utilizan reglas, restricciones y claves primarias para asegurar que cada cliente tenga un identificador único y que la información mantenga coherencia. Por ejemplo, en la vida cotidiana, sería similar a un registro bancario donde cada persona tiene un único número de cuenta y no pueden existir dos clientes con el mismo identificador, evitando confusiones y problemas financieros."
+},
+{
+    "id":51,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "Una empresa costarricense requiere implementar un nuevo sistema de información para gestionar inventarios. Durante el proceso, el equipo de trabajo se enfoca en recopilar y documentar las necesidades de los usuarios, con el fin de comprender cómo debe funcionar la solución antes de programarla. De acuerdo con las fases del análisis y diseño de sistemas de información, esta actividad corresponde a:",
+  "imagen": "",
+  "video": "",
+  "pista": "Es la fase inicial donde se recopilan, estudian y definen detalladamente las peticiones y necesidades del cliente.",
+  "opciones": [
+    "Diseño físico del sistema",
+    "Implementación de la solución en la organización",
+    "Mantenimiento correctivo de software",
+    "Análisis de requerimientos"
+  ],
+  "correcta": 3,
+  "retroalimentacion": "La respuesta correcta es 'Análisis de requerimientos' porque esta etapa consiste en identificar, recopilar y documentar todas las necesidades y expectativas de los usuarios antes de desarrollar el sistema. En esta fase se realizan entrevistas, observaciones y análisis de procesos para entender cómo debe funcionar la solución informática. Esto permite evitar errores futuros y desarrollar un sistema que realmente resuelva las necesidades de la empresa. Por ejemplo, antes de construir una casa, el arquitecto primero conversa con la familia para saber cuántos cuartos necesitan, cómo quieren la cocina o si desean cochera. De igual manera, en informática primero se analizan los requerimientos antes de empezar a programar."
+},
+{
+    "id":52,  "categoria": "Sistemas Operativos",
+  "nivel": "facil",
+  "pregunta": "Un técnico en informática debe instalar un sistema operativo en una computadora destinada al diseño gráfico de alto rendimiento. Para optimizar el funcionamiento de las aplicaciones especializadas, el sistema operativo debe administrar eficientemente los componentes físicos internos como el procesador y la memoria RAM. De acuerdo con el caso, la función principal del sistema operativo que se destaca es:",
+  "imagen": "",
+  "video": "",
+  "pista": "Piensa en el rol del sistema operativo como el encargado directo de gestionar y repartir el hardware físico del equipo.",
+  "opciones": [
+    "La creación de respaldos automáticos en la nube.",
+    "El control y la administración de los recursos de hardware.",
+    "La navegación segura por sitios web de diseño.",
+    "La edición directa de archivos vectoriales."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'El control y la administración de los recursos de hardware' porque una de las funciones más importantes de un sistema operativo es coordinar el uso de los componentes físicos de la computadora, como el procesador, la memoria RAM, el disco duro y los dispositivos conectados. Gracias a esto, las aplicaciones pueden ejecutarse correctamente y aprovechar mejor los recursos disponibles. En el caso del diseño gráfico, programas pesados como editores de video o modelado 3D requieren mucho procesamiento y memoria, por lo que el sistema operativo debe distribuir eficientemente esos recursos. Un ejemplo cotidiano sería un director de orquesta que coordina a todos los músicos para que trabajen en armonía; de igual forma, el sistema operativo organiza todos los componentes del computador."
+},
+{
+    "id":53,  "categoria": "Redes de Computadoras",
+  "nivel": "medio",
+  "pregunta": "Una pequeña empresa costarricense necesita interconectar sus oficinas ubicadas en San José, Alajuela y Cartago para compartir bases de datos y sistemas de facturación en tiempo real. Debido a la gran distancia geográfica que separa las instalaciones, el departamento de TI debe seleccionar el tipo de red adecuado. Según el caso, el tipo de red que se debe implementar es:",
+  "imagen": "",
+  "video": "",
+  "pista": "Es una red de área amplia diseñada para cubrir extensiones geográficas muy grandes, como provincias o países.",
+  "opciones": [
+    "LAN (Red de área local)",
+    "PAN (Red de área personal)",
+    "WAN (Red de área amplia)",
+    "WLAN (Red de área local inalámbrica)"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es 'WAN (Red de área amplia)' porque este tipo de red está diseñada para conectar computadoras y oficinas que se encuentran separadas por grandes distancias geográficas, incluso entre ciudades, provincias o países. En el caso planteado, las oficinas están ubicadas en diferentes partes de Costa Rica, por lo que una red local (LAN) no sería suficiente. Las WAN permiten compartir información y servicios en tiempo real utilizando conexiones de internet o enlaces especializados. Un ejemplo cotidiano sería la red de un banco nacional, donde todas las sucursales pueden acceder a la misma información de clientes aunque estén ubicadas en distintas ciudades."
+},
+{
+    "id":54,  "categoria": "Redes de Computadoras",
+  "nivel": "medio",
+  "pregunta": "El administrador de red de una institución educativa está configurando el direccionamiento IP para los laboratorios de cómputo. Para optimizar el uso de las direcciones disponibles y mejorar la seguridad, decide dividir la red principal en subredes más pequeñas mediante una máscara de subred personalizada. De acuerdo con los conceptos de redes, este procedimiento se denomina:",
+  "imagen": "",
+  "video": "",
+  "pista": "El término hace referencia directa al acto de crear subredes a partir de un rango de red mayor.",
+  "opciones": [
+    "Enrutamiento estático",
+    "Subneteo (Subnetting)",
+    "Conmutación de paquetes",
+    "Traducción de direcciones (NAT)"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Subneteo (Subnetting)' porque esta técnica permite dividir una red grande en varias subredes más pequeñas para organizar mejor los dispositivos y aprovechar de forma eficiente las direcciones IP disponibles. Además, ayuda a mejorar la seguridad y el rendimiento de la red, ya que el tráfico se distribuye entre diferentes segmentos. En el caso de los laboratorios de una institución educativa, cada laboratorio podría tener su propia subred independiente. Un ejemplo de la vida cotidiana sería dividir un edificio en varios apartamentos: aunque todos pertenecen al mismo edificio, cada apartamento tiene su propio espacio organizado e independiente."
+},
+{
+    "id":55,  "categoria": "Ciberseguridad",
+  "nivel": "medio",
+  "pregunta": "Una entidad bancaria en Costa Rica sufre un incidente de seguridad donde un atacante interceptó la comunicación inalámbrica entre los clientes y el enrutador de la sucursal, logrando capturar credenciales de acceso sin alterar los mensajes originales. De acuerdo con los tipos de ataques informáticos, esta acción corresponde a un ataque:",
+  "imagen": "",
+  "video": "",
+  "pista": "Se trata de un ataque donde el perpetrador escucha u observa la información de manera oculta, sin destruir ni modificar el tráfico de datos.",
+  "opciones": [
+    "Activo",
+    "Pasivo",
+    "De denegación de servicio (DoS)",
+    "De fuerza bruta"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Pasivo' porque en este tipo de ataque el atacante únicamente observa, escucha o intercepta la información que circula en la red sin modificarla ni afectar directamente el funcionamiento del sistema. En el caso planteado, el delincuente capturó credenciales de acceso mientras los datos viajaban por la red inalámbrica, pero no alteró los mensajes originales. Este tipo de ataque suele ser difícil de detectar porque no genera cambios visibles en el sistema. Un ejemplo cotidiano sería una persona que escucha en secreto una conversación ajena para obtener información, sin intervenir ni alterar lo que dicen los participantes."
+},
+{
+    "id":56,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "Durante una jornada de soporte técnico, se detecta que una computadora de escritorio se apaga de forma inesperada a los pocos minutos de encenderse, especialmente al ejecutar tareas pesadas. Al revisar los componentes, el técnico nota que el extractor de calor del procesador está flojo y la sustancia conductora entre ambos componentes se encuentra seca. Para solucionar el problema de raíz, el procedimiento adecuado es:",
+  "imagen": "",
+  "video": "",
+  "pista": "Es vital limpiar los residuos viejos y aplicar un componente que facilite la transferencia térmica entre el chip y el disipador.",
+  "opciones": [
+    "Sustituir la fuente de poder por una de mayor vataje.",
+    "Limpiar la superficie del procesador y aplicar nueva pasta térmica.",
+    "Formatear el disco duro para descartar problemas de software.",
+    "Instalar más memoria RAM para disminuir la carga de procesamiento."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Limpiar la superficie del procesador y aplicar nueva pasta térmica' porque la pasta térmica permite transferir correctamente el calor desde el procesador hacia el disipador y el ventilador. Cuando esta sustancia se seca o el disipador está flojo, el calor no se disipa adecuadamente y el procesador se sobrecalienta, provocando apagados automáticos como mecanismo de protección. En tareas pesadas, como videojuegos o edición de video, el procesador genera más temperatura y el problema se vuelve más evidente. Un ejemplo cotidiano sería el radiador de un automóvil: si no enfría correctamente el motor, el vehículo se recalienta y puede apagarse para evitar daños."
+},
+{
+    "id":57,  "categoria": "Bases de Datos",
+  "nivel": "medio",
+  "pregunta": "En una empresa de ventas, un analista de datos necesita obtener información específica de una base de datos relacional para generar un informe. Para ello, debe realizar consultas correctamente estructuradas sobre las tablas existentes en SQL. ¿Cuál es el procedimiento adecuado para consultar datos desde una tabla en SQL?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es el comando estándar de SQL empleado para proyectar columnas y filtrar filas de una o varias tablas.",
+  "opciones": [
+    "Las consultas se hacen con GET DATA nombre_tabla.",
+    "Para consultar una tabla se debe escribir SEARCH * IN nombre_tabla WHERE condición.",
+    "Se utiliza SELECT columnas FROM nombre_tabla [WHERE condición], donde se pueden especificar campos concretos, aplicar filtros, ordenar resultados.",
+    "Se ejecuta FETCH ALL FROM nombre_tabla."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es la opción que utiliza 'SELECT' porque este es el comando oficial del lenguaje SQL para consultar información almacenada en tablas de bases de datos relacionales. La estructura SELECT permite elegir columnas específicas, indicar de qué tabla se obtendrán los datos mediante FROM y aplicar filtros utilizando WHERE. También puede ordenar resultados o combinar información de varias tablas. Por ejemplo, si una empresa desea ver únicamente los clientes de San José, podría usar una consulta como: SELECT nombre FROM clientes WHERE ciudad='San José'. En la vida cotidiana, sería similar a buscar información específica dentro de un archivo físico organizado por carpetas."
+},
+{
+    "id":58,  "categoria": "TIC'S",
+  "nivel": "medio",
+  "pregunta": "Un estudiante de informática analiza los resultados de un examen para identificar la relación entre las horas de estudio y la nota obtenida por sus compañeros. El docente le sugiere un gráfico que permita observar la correlación entre ambas variables mediante puntos coordenados. ¿Qué tipo de gráfico debe utilizar?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es el tipo de gráfico ideal para visualizar la relación y tendencia entre dos variables cuantitativas continuas en un plano cartesiano.",
+  "opciones": [
+    "Gráfico de barras",
+    "Diagrama de dispersión",
+    "Gráfico circular",
+    "Histograma de frecuencias"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Diagrama de dispersión' porque este tipo de gráfico utiliza puntos en un plano cartesiano para representar la relación entre dos variables numéricas. En este caso, una variable corresponde a las horas de estudio y la otra a la nota obtenida. Gracias a este gráfico es posible observar si existe una tendencia o correlación, por ejemplo, si al aumentar las horas de estudio también aumentan las calificaciones. Un ejemplo cotidiano sería analizar la relación entre el tiempo de entrenamiento de un atleta y su rendimiento deportivo."
+},
+{
+    "id":59,  "categoria": "Programación Orientada a Objetos",
+  "nivel": "facil",
+  "pregunta": "¿Qué es una clase en el contexto de la Programación Orientada a Objetos?",
+  "imagen": "",
+  "video": "",
+  "pista": "Piensa en un molde, plano o plantilla a partir de la cual se pueden crear múltiples elementos individuales con características similares.",
+  "opciones": [
+    "Una variable global que almacena únicamente texto.",
+    "Un tipo de bucle que repite instrucciones de código.",
+    "Una plantilla o molde abstracto que define los atributos y métodos de un objeto.",
+    "Una función del sistema que borra la memoria RAM."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es 'Una plantilla o molde abstracto que define los atributos y métodos de un objeto' porque en Programación Orientada a Objetos una clase funciona como un plano de construcción que especifica qué características y acciones tendrán los objetos creados a partir de ella. Los atributos representan los datos y los métodos representan las acciones o comportamientos. Por ejemplo, una clase llamada 'Vehículo' puede tener atributos como color y marca, y métodos como acelerar o frenar. En la vida cotidiana, sería como el diseño de una casa: el plano define cómo será la construcción, pero cada casa creada a partir de ese plano es un objeto diferente."
+},
+{
+    "id":60,  "categoria": "Programación Orientada a Objetos",
+  "nivel": "medio",
+  "pregunta": "¿A qué se refiere el término 'instanciación' en POO?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es el proceso de dar vida en la memoria a un elemento concreto utilizando los planos de una clase.",
+  "opciones": [
+    "Al proceso de compilar un programa para buscar errores de sintaxis.",
+    "Al acto de crear un objeto concreto a partir de una clase específica.",
+    "A la eliminación de variables que ya no se están utilizando.",
+    "Al proceso de conectar una aplicación web con una base de datos."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es 'Al acto de crear un objeto concreto a partir de una clase específica' porque la instanciación consiste en utilizar una clase como molde para crear un objeto real en memoria. Cuando se instancia una clase, el objeto obtiene sus propios atributos y puede ejecutar los métodos definidos en dicha clase. Por ejemplo, si existe una clase llamada 'Estudiante', al crear un objeto llamado 'Juan' se está realizando una instanciación. En la vida cotidiana, sería como usar un molde para fabricar una figura específica; el molde es la clase y la figura creada es el objeto."
+},
+{
+    "id":61,  "categoria": "Programación Orientada a Objetos",
+  "nivel": "facil",
+  "pregunta": "¿Qué son los atributos de una clase?",
+  "imagen": "",
+  "video": "",
+  "pista": "Representan las propiedades, rasgos o datos particulares que describen el estado de un objeto.",
+  "opciones": [
+    "Las funciones y acciones que un objeto puede realizar.",
+    "Las librerías externas que se importan al inicio del código.",
+    "Las características o variables que definen las propiedades de un objeto.",
+    "Los comentarios que el programador escribe para documentar el sistema."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es 'Las características o variables que definen las propiedades de un objeto' porque los atributos almacenan la información que describe el estado de cada objeto creado a partir de una clase. Estos datos permiten diferenciar un objeto de otro aunque pertenezcan a la misma clase. Por ejemplo, en una clase 'Celular', los atributos podrían ser marca, color, almacenamiento y precio. En la vida cotidiana, sería similar a las características de un automóvil: color, modelo, año y número de placa son datos que describen al vehículo."
+}
+,
+{
+    "id":62,  "categoria": "Ciberseguridad",
+  "nivel": "facil",
+  "pregunta": "¿Qué práctica ayuda a proteger la información personal al navegar por internet?",
+  "imagen": "",
+  "video": "",
+  "pista": "Piensa en acciones preventivas para evitar accesos no autorizados a tus cuentas.",
+  "opciones": [
+    "Compartir contraseñas con amigos de confianza.",
+    "Usar la misma contraseña en todas las cuentas.",
+    "Activar la autenticación en dos pasos y utilizar contraseñas seguras.",
+    "Desactivar el antivirus para mejorar el rendimiento."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es activar la autenticación en dos pasos y utilizar contraseñas seguras, porque estas medidas añaden capas adicionales de protección frente a accesos indebidos y ataques informáticos."
+},
+{
+    "id":63,  "categoria": "Redes de Computadoras",
+  "nivel": "facil",
+  "pregunta": "¿Cuál es la función principal de un router dentro de una red informática?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es el dispositivo encargado de dirigir el tráfico de datos entre diferentes redes.",
+  "opciones": [
+    "Procesar gráficos de videojuegos.",
+    "Conectar y enrutar datos entre redes diferentes.",
+    "Almacenar archivos multimedia.",
+    "Controlar la temperatura del procesador."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es conectar y enrutar datos entre redes diferentes, ya que un router permite la comunicación entre dispositivos de distintas redes y facilita el acceso a internet."
+},
+{
+    "id":64,  "categoria": "Sistemas Operativos",
+  "nivel": "medio",
+  "pregunta": "Un usuario desea ejecutar varios programas al mismo tiempo en su computadora sin que el sistema se bloquee. ¿Qué característica del sistema operativo permite esta funcionalidad?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se refiere a la capacidad de realizar múltiples tareas simultáneamente.",
+  "opciones": [
+    "Monousuario",
+    "Multitarea",
+    "Formateo automático",
+    "Compresión de archivos"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es multitarea, porque esta característica permite que el sistema operativo ejecute varios procesos o aplicaciones simultáneamente administrando eficientemente los recursos del equipo."
+},
+{
+    "id":65,  "categoria": "Desarrollo Web",
+  "nivel": "medio",
+  "pregunta": "En una página web, un desarrollador necesita capturar la información ingresada en un formulario antes de enviarla al servidor. ¿Qué lenguaje se utiliza principalmente para validar los datos del lado del cliente?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es el lenguaje que se ejecuta directamente en el navegador del usuario.",
+  "opciones": [
+    "SQL",
+    "CSS",
+    "JavaScript",
+    "XML"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es JavaScript, ya que permite validar formularios, verificar datos y responder a eventos directamente desde el navegador antes de enviar la información al servidor."
+},
+{
+    "id":66,  "categoria": "Bases de Datos",
+  "nivel": "medio",
+  "pregunta": "En una tabla de estudiantes, cada alumno posee un código único que no puede repetirse. ¿Cómo se denomina este tipo de campo en bases de datos relacionales?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es la llave principal que identifica de manera única cada registro.",
+  "opciones": [
+    "Clave primaria",
+    "Campo compuesto",
+    "Registro duplicado",
+    "Consulta dinámica"
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es clave primaria, porque este campo identifica de forma única cada registro dentro de una tabla y evita duplicidades."
+},
+{
+    "id":67,  "categoria": "Programación",
+  "nivel": "facil",
+  "pregunta": "¿Cuál estructura de control se utiliza para repetir un bloque de instrucciones mientras una condición sea verdadera?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es una estructura iterativa muy utilizada en algoritmos.",
+  "opciones": [
+    "Condicional IF",
+    "Bucle WHILE",
+    "Variable constante",
+    "Función PRINT"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es el bucle WHILE, ya que ejecuta repetidamente un conjunto de instrucciones mientras la condición indicada continúe siendo verdadera."
+},
+{
+    "id":68,  "categoria": "Programación Orientada a Objetos",
+  "nivel": "medio",
+  "pregunta": "¿Qué principio de la Programación Orientada a Objetos permite ocultar los detalles internos de implementación y mostrar solo lo necesario al usuario?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se relaciona con la protección de datos y el acceso controlado a los atributos.",
+  "opciones": [
+    "Herencia",
+    "Polimorfismo",
+    "Encapsulamiento",
+    "Iteración"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es encapsulamiento, porque este principio permite proteger los datos internos de un objeto y controlar el acceso mediante métodos definidos."
+},
+{
+    "id":69,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "facil",
+  "pregunta": "¿Cuál es una buena práctica para prolongar la vida útil de una computadora?",
+  "imagen": "",
+  "video": "",
+  "pista": "La acumulación de polvo puede afectar el funcionamiento de los componentes internos.",
+  "opciones": [
+    "Bloquear las salidas de ventilación.",
+    "Realizar limpieza periódica del polvo interno.",
+    "Desconectar el ventilador del procesador.",
+    "Mantener el equipo encendido las 24 horas."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es realizar limpieza periódica del polvo interno, ya que el exceso de suciedad aumenta la temperatura de los componentes y puede provocar fallos de funcionamiento."
+},
+{
+    "id":70,  "categoria": "TIC'S",
+  "nivel": "facil",
+  "pregunta": "¿Cuál de las siguientes herramientas permite realizar videoconferencias y clases virtuales en línea?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es una plataforma de comunicación digital utilizada para reuniones y educación a distancia.",
+  "opciones": [
+    "Microsoft Excel",
+    "Google Meet",
+    "Paint",
+    "Bloc de notas"
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es Google Meet, ya que es una plataforma diseñada para realizar reuniones virtuales, videollamadas y clases en línea en tiempo real."
+},
+{
+    "id":71,  "categoria": "Redes de Computadoras",
+  "nivel": "medio",
+  "pregunta": "¿Qué dispositivo se utiliza principalmente para conectar múltiples computadoras dentro de una misma red local y permitir la comunicación entre ellas?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es muy común en oficinas y laboratorios para ampliar conexiones Ethernet.",
+  "opciones": [
+    "Switch",
+    "Monitor",
+    "Impresora",
+    "Scanner"
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es Switch, porque este dispositivo interconecta varios equipos dentro de una red local y administra el envío eficiente de datos entre ellos."
+}
+  ,
+ {
+      "id":72,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "¿Qué es una red LAN?",
+    "imagen": "",
+    "video": "",
+    "pista": "Sus siglas significan Local Area Network y conecta equipos ubicados dentro de distancias reducidas.",
+    "opciones": [
+      "Una red que conecta computadoras a nivel de diferentes países del mundo.",
+      "Una red de área local limitada a un espacio físico corto como una casa, oficina o escuela.",
+      "Un sistema operativo exclusivo para servidores de bases de datos masivas.",
+      "Una tarjeta de video utilizada para procesamiento en tres dimensiones."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es una red de área local, debido a que el estándar LAN cubre extensiones geográficas pequeñas e internas, proveyendo altas velocidades de transmisión de datos. Este tipo de red permite conectar computadoras, impresoras, teléfonos y otros dispositivos dentro de un mismo lugar físico para compartir recursos e información rápidamente. Por ejemplo, en una escuela todas las computadoras del laboratorio pueden estar conectadas mediante una LAN para acceder al mismo internet o imprimir documentos desde cualquier equipo. De igual manera, en una casa el router Wi-Fi crea una pequeña red LAN que conecta celulares, televisores inteligentes y laptops."
+  },
+  {
+      "id":73,  "categoria": "Redes de Computadoras",
+    "nivel": "medio",
+    "pregunta": "¿Qué dispositivo tiene como función principal interconectar múltiples equipos dentro de la misma red local (LAN) para enviar datos directo al destino correcto?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es un conmutador inteligente de red que trabaja en la capa 2 del modelo OSI, enviando tramas basándose en las direcciones MAC.",
+    "opciones": [
+      "Un switch.",
+      "Un monitor.",
+      "Un disco duro externo.",
+      "Un cable HDMI."
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La respuesta correcta es el switch (conmutador), el cual centraliza el cableado de los equipos de un área local y distribuye los datos eficientemente a cada puerto destino. El switch analiza la dirección MAC de cada dispositivo para enviar la información únicamente al equipo correspondiente, mejorando el rendimiento de la red. Por ejemplo, en una oficina donde varias computadoras comparten archivos e impresoras, el switch permite que la información llegue directamente al computador correcto sin saturar toda la red."
+  },
+  {
+      "id":74,  "categoria": "Redes de Computadoras",
+    "nivel": "facil",
+    "pregunta": "¿Cuál es el propósito de una dirección IP?",
+    "imagen": "",
+    "video": "",
+    "pista": "Funciona de manera similar a la dirección física de una casa, permitiendo que las cartas (paquetes de datos) lleguen al destinatario correcto en el mundo digital.",
+    "opciones": [
+      "Medir la cantidad de energía eléctrica consumida por un enrutador.",
+      "Identificar de forma única a un dispositivo conectado en una red informatica.",
+      "Almacenar las contraseñas de las redes inalámbricas del laboratorio.",
+      "Determinar el tamaño físico de la tarjeta de red."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es identificar de forma única a un dispositivo conectado en una red informática, permitiendo que el protocolo IP enrute los paquetes hacia el destino exacto dentro de la red local o global. Una dirección IP funciona como la dirección de una vivienda, ya que permite localizar correctamente el dispositivo que envía o recibe información. Por ejemplo, cuando una persona abre YouTube o envía un mensaje desde su celular, internet utiliza direcciones IP para asegurarse de que los datos lleguen al dispositivo correcto."
+  },
+  {
+      "id":75,  "categoria": "Redes de Computadoras",
+    "nivel": "facil",
+    "pregunta": "¿Qué medio de transmisión utiliza filamentos de vidrio o plástico para enviar datos mediante impulsos de luz a altas velocidades?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es un medio guiado inmune a las interferencias electromagnéticas que se usa en las telecomunicaciones modernas de banda ancha.",
+    "opciones": [
+      "Cable de par trenzado UTP.",
+      "Cable coaxial pesado.",
+      "Fibra óptica.",
+      "Conexión por ondas de radio de onda corta."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es la fibra óptica, medio físico avanzado que traduce los bits binarios en destellos lumínicos logrando anchos de banda muy superiores y largas distancias sin degradar la señal. A diferencia de otros cables eléctricos, la fibra óptica transmite información mediante luz, permitiendo conexiones mucho más rápidas y estables. Por ejemplo, los servicios modernos de internet de alta velocidad utilizan fibra óptica para permitir videollamadas, videojuegos en línea y plataformas de streaming como Netflix sin interrupciones."
+  },
+
+  {
+      "id":76,  "categoria": "Sistemas Operativos",
+    "nivel": "facil",
+    "pregunta": "¿Cuál es la función primordial de un Sistema Operativo?",
+    "imagen": "",
+    "video": "",
+    "pista": "Sirve de intermediario indispensable entre los circuitos físicos de la computadora y los programas que el usuario utiliza.",
+    "opciones": [
+      "Compilar códigos fuente escritos en lenguaje Java o C++.",
+      "Administrar los recursos de hardware y actuar como intermediario para ejecutar las aplicaciones.",
+      "Limpiar archivos duplicados en internet automáticamente.",
+      "Almacenar las copias de seguridad eléctricas de la oficina."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es administrar los recursos de hardware y actuar como intermediario para ejecutar las aplicaciones, pues sin un sistema operativo las aplicaciones no tendrían instrucciones para comunicarse con la memoria, CPU o discos duros. El sistema operativo organiza y controla el funcionamiento de todos los componentes internos del computador. Por ejemplo, cuando una persona escucha música, navega en internet y escribe un documento al mismo tiempo, el sistema operativo coordina el uso del procesador y la memoria para que todas las tareas funcionen correctamente."
+  },
+  {
+      "id":77,  "categoria": "Sistemas Operativos",
+    "nivel": "facil",
+    "pregunta": "¿Cuál de los siguientes programas se clasifica como un sistema operativo de código abierto muy utilizado en servidores y desarrollo de software?",
+    "imagen": "",
+    "video": "",
+    "pista": "Su mascota oficial es un pingüino llamado Tux.",
+    "opciones": [
+      "Windows 11",
+      "Microsoft Excel",
+      "Linux",
+      "Google Chrome"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es Linux, un sistema operativo de núcleo abierto reconocido mundialmente por su estabilidad, seguridad y flexibilidad en ambientes corporativos y educativos. Linux permite que desarrolladores y empresas modifiquen su código según sus necesidades, por lo que es ampliamente usado en servidores y plataformas tecnológicas. Por ejemplo, muchos sitios web, plataformas de streaming y servicios en la nube funcionan utilizando servidores Linux debido a su alto rendimiento y confiabilidad."
+  },
+  {
+      "id":78,  "categoria": "Sistemas Operativos",
+    "nivel": "medio",
+    "pregunta": "¿Qué es la interfaz de línea de comandos (CLI) en un sistema operativo?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es un entorno clásico en modo texto (como la consola o terminal) donde las instrucciones se le indican al sistema escribiendo palabras precisas.",
+    "opciones": [
+      "La pantalla táctil que permite arrastrar íconos con los dedos.",
+      "El puerto físico donde se conecta el teclado multimedia.",
+      "Un medio de interacción basado en texto donde el usuario escribe comandos específicos para realizar tareas.",
+      "Un software diseñado para recuperar contraseñas perdidas."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es un medio de interacción basado en texto donde el usuario escribe comandos específicos para realizar tareas, el cual permite a administradores de TI controlar el sistema operativo con rapidez a través de la consola de comandos. La CLI ofrece una forma directa y eficiente de administrar archivos, redes y programas. Por ejemplo, un técnico puede escribir comandos para instalar aplicaciones, crear carpetas o revisar conexiones de red sin necesidad de utilizar ventanas gráficas."
+  },
+  {
+      "id":79,  "categoria": "Sistemas Operativos",
+    "nivel": "facil",
+    "pregunta": "En un sistema operativo, ¿qué recurso de almacenamiento temporal se limpia por completo cuando la computadora se apaga o se reinicia?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es una memoria de acceso aleatorio, de carácter volátil, donde se cargan los procesos activos.",
+    "opciones": [
+      "El disco estado sólido (SSD).",
+      "La memoria RAM.",
+      "La cinta magnética de respaldo.",
+      "La tarjeta de memoria MicroSD."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La respuesta correcta es la memoria RAM, ya que al ser un componente de almacenamiento volátil requiere corriente eléctrica constante para retener los datos de los programas en uso. La RAM almacena temporalmente la información necesaria para ejecutar aplicaciones rápidamente. Por ejemplo, cuando una persona está editando un documento o jugando en línea, los datos se cargan en la RAM; si el equipo se apaga inesperadamente sin guardar, toda esa información temporal se pierde."
+  },
+
+  {
+      "id":80,  "categoria": "Diagramas de Flujo",
+    "nivel": "facil",
+    "pregunta": "¿Qué es un diagrama de flujo?",
+    "imagen": "",
+    "video": "",
+    "pista": "Es un mapa visual estructurado que utiliza figuras geométricas interconectadas para representar los pasos lógicos de una solución.",
+    "opciones": [
+      "Una lista de código escrita directamente en lenguaje ensamblador.",
+      "Un informe de texto extenso que detalla los costos de un software.",
+      "La representación gráfica de un algoritmo o proceso a través de símbolos estructurados.",
+      "Un componente electrónico soldado en la tarjeta madre."
+    ],
+    "correcta": 2,
+    "retroalimentacion": "La respuesta correcta es la representación gráfica de un algoritmo o proceso a través de símbolos estructurados, permitiendo analizar, documentar o diseñar procesos lógicos secuenciales de forma sumamente comprensible. Los diagramas de flujo ayudan a visualizar paso a paso cómo funciona una solución antes de programarla. Por ejemplo, el proceso de retirar dinero en un cajero automático puede representarse mediante un diagrama de flujo que incluya insertar tarjeta, escribir PIN, elegir monto y retirar efectivo."
+  },
+ {
+    "id":81,  "categoria": "Diagramas de Flujo",
+  "nivel": "facil",
+  "pregunta": "¿Qué figura geométrica estándar representa un proceso o una acción matemática/asignación en un diagrama de flujo?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se utiliza para tareas generales como 'Sumar A + B' o 'Inicializar variable en 0'.",
+  "opciones": [
+    "Un rombo.",
+    "Un óvalo.",
+    "Un rectángulo.",
+    "Un círculo pequeño."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es un rectángulo, símbolo universal reservado en diagramación lógica para denotar operaciones de cálculo, asignación de variables o pasos de procesamiento interno. Dentro de este símbolo se colocan acciones que el sistema debe ejecutar. Por ejemplo, en un sistema de facturación un rectángulo puede representar la operación de calcular el total de una compra sumando precios e impuestos. En la vida cotidiana, sería parecido a seguir un paso específico dentro de una receta de cocina, como 'mezclar los ingredientes' o 'hornear durante 30 minutos'."
+},
+{
+    "id":82,  "categoria": "Diagramas de Flujo",
+  "nivel": "facil",
+  "pregunta": "¿Qué figura se utiliza en los diagramas de flujo para representar una toma de decisión condicional?",
+  "imagen": "",
+  "video": "",
+  "pista": "Tiene una entrada y suele ramificarse en dos caminos de salida marcados con las opciones 'Sí' o 'No'.",
+  "opciones": [
+    "Un rombo.",
+    "Un rectángulo largo.",
+    "Un triángulo invertido.",
+    "Un círculo de conector."
+  ],
+  "correcta": 0,
+  "retroalimentacion": "La respuesta correcta es un rombo, ya que es la figura geométrica asignada formalmente para plantear preguntas de control condicional (ej. ¿Es n mayor a cero?). Este símbolo permite que el flujo del proceso tome caminos distintos dependiendo del resultado de la condición evaluada. Por ejemplo, en un sistema bancario puede utilizarse para verificar si un usuario tiene fondos suficientes antes de aprobar una transferencia. En la vida cotidiana funciona igual que tomar decisiones simples como: '¿Está lloviendo?'. Si la respuesta es sí, se usa paraguas; si es no, se sale normalmente."
+},
+{
+    "id":83,  "categoria": "Diagramas de Flujo",
+  "nivel": "facil",
+  "pregunta": "¿Para qué sirven las flechas o líneas de flujo en un diagrama?",
+  "imagen": "",
+  "video": "",
+  "pista": "Su función consiste en guiar la mirada indicando cuál es el paso que sigue inmediatamente después de resolver el símbolo actual.",
+  "opciones": [
+    "Para indicar que el proceso se ha cancelado por un error.",
+    "Para conectar los símbolos y marcar el orden de ejecución y dirección del flujo.",
+    "Para multiplicar los valores numéricos ingresados por el usuario.",
+    "Para dibujar los bordes estéticos decorativos del documento gráfico."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es conectar los símbolos y marcar el orden de ejecución, garantizando que el algoritmo mantenga una secuencia ordenada, clara y unívoca desde el inicio hasta el fin. Las flechas permiten entender qué paso ocurre primero y cuál continúa después dentro del proceso lógico. Por ejemplo, en un sistema de matrícula las líneas conectan acciones como ingresar datos, verificar requisitos y confirmar la inscripción. En la vida cotidiana se parecen a las señales de dirección en una carretera o centro comercial, ya que indican hacia dónde continuar para llegar correctamente al destino."
+},
+{
+    "id":84,  "categoria": "Desarrollo Móvil",
+  "nivel": "facil",
+  "pregunta": "¿Cuál de los siguientes es el sistema operativo móvil de código abierto más utilizado en el mundo, desarrollado principalmente por Google?",
+  "imagen": "",
+  "video": "",
+  "pista": "Usa aplicaciones con extensiones .apk y sus versiones históricas llevaban nombres de postres.",
+  "opciones": [
+    "iOS",
+    "Windows Phone",
+    "Android",
+    "Ubuntu Server"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es Android, ecosistema móvil dominante basado en el núcleo de Linux y liderado por Google, con un amplio mercado de dispositivos a nivel global. Android permite instalar aplicaciones, personalizar dispositivos y utilizar múltiples servicios integrados como mapas, correo y almacenamiento en la nube. Además, su naturaleza de código abierto facilita que diferentes fabricantes adapten el sistema a sus teléfonos. En la vida cotidiana, la mayoría de smartphones utilizados para redes sociales, mensajería, videojuegos o navegación GPS funcionan con Android."
+},
+{
+    "id":85,  "categoria": "Desarrollo Móvil",
+  "nivel": "facil",
+  "pregunta": "¿Qué es una aplicación móvil nativa?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es una aplicación escrita en el lenguaje específico y oficial del fabricante del sistema operativo móvil, logrando el máximo rendimiento.",
+  "opciones": [
+    "Una página web común y corriente que se abre desde una computadora de escritorio.",
+    "Una aplicación desarrollada específicamente para un sistema operativo y hardware concreto, usando sus lenguajes oficiales.",
+    "Un programa antiguo que funciona únicamente sin conexión eléctrica.",
+    "Un virus informático que daña las pantallas táctiles de las tablets."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es una aplicación desarrollada específicamente para un sistema operativo concreto, utilizando lenguajes como Kotlin/Java para Android o Swift/Objective-C para iOS, explotando al máximo el rendimiento del teléfono. Las aplicaciones nativas tienen acceso directo a funciones del dispositivo como cámara, GPS, sensores y notificaciones. Por ejemplo, aplicaciones como WhatsApp o TikTok funcionan de manera fluida porque fueron optimizadas para el sistema operativo del teléfono. En la vida cotidiana, esto se refleja cuando una app abre rápidamente la cámara o utiliza el reconocimiento facial sin problemas."
+},
+{
+    "id":86,  "categoria": "Desarrollo Móvil",
+  "nivel": "facil",
+  "pregunta": "¿Cómo se llama la tienda oficial de distribución de aplicaciones digitales para dispositivos Android?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es la plataforma integrada en los dispositivos donde los usuarios descargan herramientas, juegos y libros autorizados por Google.",
+  "opciones": [
+    "App Store.",
+    "Google Play Store.",
+    "Windows Marketplace.",
+    "Ubuntu Software Center."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es Google Play Store, canal centralizado oficial del entorno Android para la publicación, descarga e instalación segura de aplicaciones móviles. Desde esta plataforma los usuarios pueden instalar juegos, aplicaciones educativas, redes sociales y herramientas de productividad. Además, Google Play verifica parcialmente las aplicaciones para reducir riesgos de seguridad. En la vida cotidiana, cuando una persona descarga aplicaciones como YouTube, Spotify o Zoom en su celular Android, normalmente lo hace mediante Google Play Store."
+},
+{
+    "id":87,  "categoria": "Desarrollo Móvil",
+  "nivel": "medio",
+  "pregunta": "Al diseñar una app móvil, ¿por qué es crítico considerar el concepto de 'diseño responsivo o adaptable'?",
+  "imagen": "",
+  "video": "",
+  "pista": "Los smartphones y las tablets vienen en una enorme variedad de dimensiones y proporciones de pantalla.",
+  "opciones": [
+    "Para obligar al teléfono a consumir más batería de lo normal.",
+    "Para que los textos se vean únicamente cuando el teléfono esté en modo avión.",
+    "Para garantizar que la interfaz se ajuste y visualice correctamente en pantallas de diferentes tamaños.",
+    "Para bloquear la instalación de aplicaciones en computadoras portátiles."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es garantizar que la interfaz se ajuste correctamente, ya que el diseño adaptable previene que los elementos visuales se corten o sobrepongan al pasar de un teléfono compacto a una pantalla de mayor escala. Esto mejora la experiencia del usuario y facilita la navegación en cualquier dispositivo. Por ejemplo, una aplicación bancaria debe verse correctamente tanto en un celular pequeño como en una tablet. En la vida cotidiana, es similar a usar ropa ajustable que se adapta cómodamente a diferentes tamaños de personas."
+},
+{
+    "id":88,  "categoria": "TIC'S",
+  "nivel": "facil",
+  "pregunta": "¿Qué significan exactamente las siglas TIC's?",
+  "imagen": "",
+  "video": "",
+  "pista": "Engloba las herramientas de cómputo, redes y software empleadas para procesar, resguardar y transmitir datos a nivel global.",
+  "opciones": [
+    "Técnicas de Instalación de Computadoras Complejas.",
+    "Tecnologías de la Información y la Comunicación.",
+    "Tablas de Interconexión de Circuitos Integrados.",
+    "Teorías de Informática Comercial y Sistémica."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es Tecnologías de la Información y la Comunicación (TIC's), concepto que unifica la informática, el internet, la microelectrónica y los medios de comunicación masivos. Las TIC's facilitan la creación, almacenamiento y transmisión de información de manera rápida y eficiente. Gracias a ellas es posible estudiar virtualmente, trabajar en línea y comunicarse instantáneamente desde cualquier lugar. En la vida cotidiana, plataformas como WhatsApp, Google Meet o aulas virtuales son ejemplos claros del uso de las TIC's."
+},
+{
+    "id":89,  "categoria": "TIC'S",
+  "nivel": "facil",
+  "pregunta": "¿Cuál de las siguientes opciones representa un beneficio directo de la implementación de las TIC's en el ámbito educativo?",
+  "imagen": "",
+  "video": "",
+  "pista": "Piensa en el uso de aulas virtuales, videos educativos e internet para realizar tareas e investigaciones desde cualquier lugar.",
+  "opciones": [
+    "Eliminar por completo la necesidad de estudiar para aprobar los exámenes.",
+    "Facilitar el acceso a plataformas de aprendizaje virtual y fuentes globales de investigación.",
+    "Aumentar el costo de la matrícula escolar de forma obligatoria.",
+    "Restringir la comunicación entre estudiantes y profesores de zonas rurales."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es facilitar el acceso a plataformas virtuales y fuentes globales de investigación, democratizando el conocimiento mediante el uso de recursos digitales didácticos interactivos. Las TIC's permiten a los estudiantes acceder a videos, bibliotecas digitales y clases virtuales desde cualquier ubicación con internet. Por ejemplo, un estudiante puede participar en una videollamada educativa sin necesidad de trasladarse físicamente al centro educativo. En la vida cotidiana, esto ocurre cuando una persona utiliza YouTube o Google Classroom para aprender un tema nuevo desde su casa."
+},
+{
+    "id":90,  "categoria": "TIC'S",
+  "nivel": "medio",
+  "pregunta": "En el contexto de la sociedad digital, ¿cuál de los siguientes elementos constituye una herramienta básica de comunicación en tiempo real basada en TIC's?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es un medio tecnológico moderno que permite escribir mensajes o realizar llamadas instantáneas mediante internet.",
+  "opciones": [
+    "El correo postal tradicional en papel.",
+    "Las aplicaciones de mensajería instantánea y videoconferencias.",
+    "Los periódicos impresos de circulación semanal.",
+    "El telégrafo de impulsos de código morse."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta son las aplicaciones de mensajería instantánea y videoconferencias, las cuales modificaron los esquemas de comunicación agilizando el flujo informativo laboral y personal sin barreras geográficas. Estas herramientas permiten enviar mensajes, compartir archivos y realizar reuniones virtuales en tiempo real. Por ejemplo, empresas y estudiantes utilizan Zoom, Teams o WhatsApp para coordinar actividades rápidamente. En la vida cotidiana, esto sucede cuando una familia realiza videollamadas para comunicarse con parientes que viven en otro país."
+},
+{
+    "id":91,  "categoria": "TIC'S",
+  "nivel": "facil",
+  "pregunta": "¿Qué es el almacenamiento en la nube, un servicio clave dentro de las TIC's?",
+  "imagen": "",
+  "video": "",
+  "pista": "Consiste en guardar tus documentos en servidores remotos accesibles por internet, en lugar de ocupar únicamente la memoria local de tu equipo.",
+  "opciones": [
+    "Un método físico para enfriar el procesador de una computadora.",
+    "Guardar archivos en servidores remotos accesibles a través de Internet.",
+    "Un tipo de disco duro instalado dentro del gabinete de la oficina.",
+    "El software encargado de dibujar gráficos meteorológicos."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es guardar archivos en servidores remotos accesibles a través de Internet, ofreciendo ventajas de movilidad, sincronización en tiempo real y copias de seguridad remotas. Gracias al almacenamiento en la nube, los usuarios pueden acceder a sus documentos desde diferentes dispositivos sin depender únicamente de una computadora física. Por ejemplo, servicios como Google Drive o OneDrive permiten abrir archivos desde el celular, tablet o laptop. En la vida cotidiana, es parecido a guardar pertenencias importantes en una caja de seguridad accesible desde diferentes lugares."
+},
+{
+    "id":92,  "categoria": "Programación",
+  "nivel": "facil",
+  "pregunta": "¿Qué es un algoritmo en programación?",
+  "imagen": "",
+  "video": "",
+  "pista": "Es una receta con instrucciones finitas, lógicas y ordenadas destinadas a realizar una acción o solucionar un problema.",
+  "opciones": [
+    "Un tipo de monitor de alta definición para programadores avanzados.",
+    "Una serie ordenada y finita de instrucciones o pasos lógicos para resolver un problema.",
+    "Una falla crítica del sistema que provoca que la computadora se apague.",
+    "Una base de datos que solo almacena números enteros negativos."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es una serie ordenada y finita de pasos lógicos, debido a que todo programa informático nace a partir de la lógica computacional de un algoritmo estructurado. Los algoritmos permiten resolver tareas de manera organizada y eficiente siguiendo una secuencia definida. Por ejemplo, un sistema de cajero automático utiliza algoritmos para validar usuarios, verificar saldo y entregar dinero. En la vida cotidiana, un algoritmo funciona igual que una receta de cocina donde cada paso debe seguirse en orden para obtener el resultado esperado."
+}
+  ,
+ {
+    "id":93,  "categoria": "Programación",
+  "nivel": "facil",
+  "pregunta": "¿Qué es una variable en programación?",
+  "imagen": "",
+  "video": "",
+  "pista": "Funciona como una caja etiquetada con un nombre en la memoria del computador, cuyo contenido puede cambiar a lo largo del programa.",
+  "opciones": [
+    "Un valor fijo que nunca se puede modificar una vez escrito el programa.",
+    "Un espacio de memoria reservado para almacenar un dato que puede cambiar durante la ejecución.",
+    "Un cable físico que conecta el procesador con el disco de almacenamiento.",
+    "Una instrucción exclusiva para imprimir mensajes con colores brillantes."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es un espacio de memoria reservado para almacenar un dato, actuando como el elemento de almacenamiento básico de información dinámica dentro de los scripts o algoritmos. Las variables permiten guardar información temporal que puede modificarse mientras el programa se ejecuta, como números, textos o resultados de operaciones. Por ejemplo, en una aplicación bancaria una variable puede almacenar el saldo actual de un usuario, y dicho valor cambia cada vez que se realiza un depósito o un retiro."
+},
+{
+    "id":94,  "categoria": "Programación",
+  "nivel": "facil",
+  "pregunta": "¿Cuál es la función de un bucle o ciclo (como 'while' o 'for') en la lógica de programación?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se utiliza para evitar escribir la misma instrucción muchas veces seguidas cuando se necesita repetir una tarea bajo ciertas condiciones.",
+  "opciones": [
+    "Terminar y cerrar inmediatamente el programa sin guardar los cambios.",
+    "Borrar todas las variables declaradas en el bloque de código principal.",
+    "Repetir un bloque de instrucciones de código mientras se cumpla una condición determinada.",
+    "Traducir el código fuente escrito en lenguaje humano a código binario."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es repetir un bloque de instrucciones de código, optimizando el tamaño del programa y automatizando tareas repetitivas de forma eficiente. Los ciclos permiten ejecutar acciones múltiples veces sin necesidad de escribir el mismo código repetidamente. Por ejemplo, una plataforma educativa puede usar un ciclo para mostrar automáticamente la lista de calificaciones de todos los estudiantes registrados en el sistema."
+},
+{
+    "id":95,  "categoria": "Programación",
+  "nivel": "facil",
+  "pregunta": "¿Qué es un error de sintaxis en programación?",
+  "imagen": "",
+  "video": "",
+  "pista": "Ocurre cuando el programador comete una falta ortográfica o infringe las reglas gramaticales del lenguaje de programación utilizado.",
+  "opciones": [
+    "Una falla eléctrica que daña el procesador de la computadora.",
+    "Un incumplimiento de las reglas gramaticales del lenguaje de programación que impide compilar el código.",
+    "Un problema de red que desconecta el internet del equipo.",
+    "Un resultado matemático incorrecto causado por una mala fórmula lógica."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es un incumplimiento de las reglas gramaticales, ya que el compilador o intérprete no logra traducir la instrucción si falta un punto y coma, un paréntesis o si se escribe mal una palabra reservada. Los errores de sintaxis son similares a cometer errores ortográficos en un idioma, donde la oración deja de tener sentido. Por ejemplo, escribir 'pritn' en lugar de 'print' puede provocar que el programa no funcione correctamente."
+},
+{
+    "id":96,  "categoria": "Bases de Datos",
+  "nivel": "facil",
+  "pregunta": "¿Cuál es la función principal de una clave primaria (Primary Key) en una tabla?",
+  "imagen": "",
+  "video": "",
+  "pista": "Debe tener un valor irrepetible y no nulo que sirva para distinguir inequívocamente cada fila de la tabla.",
+  "opciones": [
+    "Cifrar y ocultar los nombres de los administradores del sistema.",
+    "Permitir que la tabla almacene imágenes de alta resolución sin ocupar espacio.",
+    "Identificar de manera única y exclusiva cada registro dentro de una tabla de base de datos.",
+    "Unir automáticamente todas las bases de datos del país en un solo servidor."
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es identificar de manera única y exclusiva cada registro, actuando como la cédula de identidad del registro dentro de la estructura relacional. Una clave primaria evita que existan registros duplicados y facilita encontrar información específica rápidamente. Por ejemplo, en una tabla de estudiantes cada alumno puede tener un número de identificación único que diferencia sus datos de los demás."
+},
+{
+    "id":97,  "categoria": "Bases de Datos",
+  "nivel": "facil",
+  "pregunta": "¿Qué tipo de dato en una base de datos se utiliza específicamente para almacenar texto de longitud variable, como nombres o correos?",
+  "imagen": "",
+  "video": "",
+  "pista": "Su nombre proviene de la combinación de 'variable' y 'character' en inglés.",
+  "opciones": [
+    "INTEGER",
+    "BOOLEAN",
+    "VARCHAR",
+    "DATE"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es VARCHAR, tipo de dato estándar que optimiza el espacio guardando cadenas alfanuméricas de extensión variable según los caracteres introducidos por el usuario. Este tipo de dato es muy utilizado para almacenar nombres, direcciones o correos electrónicos. Por ejemplo, un correo como 'usuario@gmail.com' ocupa más caracteres que el nombre 'Ana', y VARCHAR ajusta automáticamente el espacio necesario."
+},
+{
+    "id":98,  "categoria": "Bases de Datos",
+  "nivel": "facil",
+  "pregunta": "¿Qué significa el concepto de 'Redundancia de Datos' en un diseño deficiente de base de datos?",
+  "imagen": "",
+  "video": "",
+  "pista": "Ocurre cuando la misma información se encuentra guardada inútilmente de forma repetida en múltiples lugares, desperdiciando almacenamiento.",
+  "opciones": [
+    "La velocidad máxima de copia que alcanza el servidor de archivos.",
+    "La duplicación innecesaria de la misma información en varios registros o tablas de la base de datos.",
+    "Un mecanismo de seguridad que encripta las contraseñas en binario.",
+    "La exportación de tablas en formato de hojas de cálculo."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es la duplicación innecesaria de la misma información, un problema que la técnica de normalización busca corregir para evitar inconsistencias en los datos. Cuando la información se repite muchas veces, aumenta el riesgo de errores y desperdicio de espacio. Por ejemplo, guardar el mismo número telefónico de un cliente en decenas de registros distintos puede provocar inconsistencias si el número cambia y no se actualiza en todos los lugares."
+},
+{
+    "id":99,  "categoria": "Bases de Datos",
+  "nivel": "medio",
+  "pregunta": "¿Qué comando de SQL se emplea para añadir una nueva fila de información dentro de una tabla existente?",
+  "imagen": "",
+  "video": "",
+  "pista": "Su traducción literal del inglés significa 'insertar dentro de'.",
+  "opciones": [
+    "UPDATE TABLE",
+    "DELETE FROM",
+    "INSERT INTO",
+    "CREATE DATABASE"
+  ],
+  "correcta": 2,
+  "retroalimentacion": "La respuesta correcta es INSERT INTO, comando estructurado del sublenguaje DML empleado para añadir datos nuevos en los campos de una tabla. Este comando permite registrar nueva información dentro de la base de datos de manera organizada. Por ejemplo, cuando una tienda registra un nuevo producto en su inventario, utiliza una instrucción INSERT INTO para almacenar los datos del artículo."
+},
+{
+    "id":100,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "facil",
+  "pregunta": "¿A qué se refiere el mantenimiento preventivo de una computadora?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se realiza periódicamente en equipos que están funcionando de manera normal para evitar futuras fallas o sobrecalentamiento.",
+  "opciones": [
+    "A la reparación de una tarjeta madre que ya se quemó por completo.",
+    "A acciones periódicas de limpieza y optimización para prevenir fallas futuras y alargar la vida útil del equipo.",
+    "A la compra e instalación de componentes de hardware más costosos del mercado.",
+    "Al proceso de desechar computadoras viejas en centros de reciclaje autorizados."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta son acciones periódicas de limpieza y optimización, ya que el mantenimiento preventivo ayuda a evitar daños antes de que ocurran. Este tipo de mantenimiento incluye limpiar ventiladores, actualizar programas y revisar componentes internos. Por ejemplo, limpiar regularmente el polvo acumulado en una computadora evita el sobrecalentamiento y permite que el equipo funcione de manera más rápida y segura."
+},
+{
+    "id":101,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "facil",
+  "pregunta": "¿Cuál es la función principal de la pasta térmica en un procesador?",
+  "imagen": "",
+  "video": "",
+  "pista": "Rellena las imperfecciones microscópicas de aire entre la superficie del procesador y el bloque metálico del disipador.",
+  "opciones": [
+    "Pegar firmemente los cables de la fuente de poder a la tarjeta madre.",
+    "Facilitar la transferencia de calor entre el procesador y el disipador para evitar sobrecalentamiento.",
+    "Aumentar la velocidad de transmisión de datos del disco duro.",
+    "Limpiar la suciedad acumulada en las ranuras de la memoria RAM."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es facilitar la transferencia de calor entre el procesador y el disipador, ayudando a mantener temperaturas seguras de funcionamiento. La pasta térmica evita que el procesador se caliente excesivamente durante tareas exigentes. Por ejemplo, cuando una persona juega videojuegos o edita videos durante varias horas, la pasta térmica ayuda a disipar el calor generado por el CPU."
+},
+{
+    "id":102,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "medio",
+  "pregunta": "¿Qué herramienta de limpieza es la más recomendada para retirar el polvo acumulado en las zonas de difícil acceso dentro del gabinete o fuente de poder sin tocar los circuitos?",
+  "imagen": "",
+  "video": "",
+  "pista": "Expulsa ráfagas de aire limpio a presión mecánica o manual desplazando las partículas de suciedad.",
+  "opciones": [
+    "Un paño de algodón empapado de agua jabonosa.",
+    "Aire comprimido o sopladora eléctrica.",
+    "Una brocha de cerdas de plástico de alta estática.",
+    "Líquido limpiavidrios común."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es el aire comprimido o sopladora eléctrica, ya que permite remover el polvo acumulado sin tocar directamente los componentes electrónicos sensibles. Esta herramienta ayuda a mantener ventiladores y disipadores limpios para mejorar la ventilación interna. Por ejemplo, muchas computadoras comienzan a hacer más ruido cuando el polvo obstruye los ventiladores, y el aire comprimido ayuda a solucionar este problema."
+},
+{
+    "id":103,  "categoria": "Mantenimiento de computadoras",
+  "nivel": "facil",
+  "pregunta": "¿A qué se refiere el mantenimiento correctivo de una computadora?",
+  "imagen": "",
+  "video": "",
+  "pista": "Se aplica exclusivamente una vez que el componente ya ha fallado, se ha roto o ha dejado de funcionar.",
+  "opciones": [
+    "A la limpieza rutinaria de polvo de los ventiladores cada seis meses.",
+    "A la reparación o sustitución de componentes de hardware o software una vez que se ha presentado una falla operativa.",
+    "A la instalación de actualizaciones automáticas del sistema de seguridad.",
+    "A la configuración inicial de los parámetros de red y contraseñas de la BIOS."
+  ],
+  "correcta": 1,
+  "retroalimentacion": "La respuesta correcta es la reparación o sustitución de componentes una vez presentada una falla, restaurando el funcionamiento normal del equipo. El mantenimiento correctivo ocurre cuando ya existe un problema que impide el uso adecuado de la computadora. Por ejemplo, cambiar un disco duro dañado o reemplazar una memoria RAM defectuosa son acciones típicas de mantenimiento correctivo."
+}
+]
+
+  

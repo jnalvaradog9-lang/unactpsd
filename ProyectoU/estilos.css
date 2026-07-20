@@ -1,0 +1,1581 @@
+/* =========================================================
+🎨 VARIABLES GENERALES
+========================================================= */
+/* =========================================================
+🎨 VARIABLES GENERALES
+========================================================= */
+
+:root{
+
+  /* 🌎 Fondo general */
+  --bg:#EEF4FA;
+
+  /* 📦 Fondos suaves */
+  --bg-soft:#E2ECF5;
+
+  /* 🪟 Tarjetas */
+  --card:#F7FAFC;
+
+  /* 🔵 Color principal */
+  --primary:#4F8EF7;
+
+  /* 🔵 Hover */
+  --primary-hover:#3B78E7;
+
+  /* 📝 Texto */
+  --text:#243447;
+
+  /* ⚪ Bordes */
+  --gray:#C7D3E0;
+
+  /* ✅ Correctas */
+  --correct:#22C55E;
+
+  /* ❌ Incorrectas */
+  --wrong:#F59E0B;
+
+  /* 👁 Vista */
+  --visited:#7C3AED;
+
+  /* 🌫 Sombras */
+  --shadow:rgba(15,23,42,0.08);
+
+}
+/* =========================================================
+📘 INSTRUCCIONES
+========================================================= */
+.respondida{
+    background:#3498db;
+    color:white;
+}
+.nav-item.respondida{
+    background:#2196F3 !important;
+    color:white !important;
+}
+.instrucciones{
+
+  background:var(--bg-soft);
+
+  border:1px solid var(--gray);
+
+  padding:20px;
+
+  border-radius:15px;
+
+  margin:25px 0;
+
+  line-height:1.8;
+}
+
+.instrucciones h3{
+
+  margin-top:0;
+
+  color:var(--primary);
+}
+
+.instrucciones ul{
+
+  padding-left:22px;
+}
+
+.instrucciones li{
+
+  margin-bottom:12px;
+}
+
+/* ✨ ANIMACIÓN MENSAJES */
+
+.mensaje-bot,
+.mensaje-usuario{
+
+  animation:fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(10px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+html,
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+/* 🔥 SCROLL BONITO */
+
+#mensajes::-webkit-scrollbar{
+  width:8px;
+}
+
+#mensajes::-webkit-scrollbar-thumb{
+  background:var(--primary);
+  border-radius:10px;
+}
+
+.tabla-monitoreo{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+    margin-bottom:30px;
+
+}
+
+.tabla-monitoreo th{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:12px;
+
+}
+
+.tabla-monitoreo td{
+
+    padding:10px;
+
+    border:1px solid var(--gray);
+
+    text-align:center;
+
+}
+
+.tabla-monitoreo tr:nth-child(even){
+
+    background:var(--bg-soft);
+
+}
+
+.btnSubir{
+
+    position:fixed;
+
+    bottom:25px;
+
+    right:25px;
+
+    width:auto;
+
+    z-index:999;
+
+}
+
+/* =========================================
+📊 MONITOREO
+========================================= */
+
+.tabla-monitoreo a{
+
+    color:var(--primary);
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.tabla-monitoreo a:hover{
+
+    text-decoration:underline;
+
+}
+
+.tabla-monitoreo a:visited{
+
+    color:var(--primary);
+
+}
+
+/* 🌙 MODO OSCURO */
+
+.dark .tabla-monitoreo a{
+
+    color:#60A5FA;
+
+}
+
+.dark .tabla-monitoreo a:visited{
+
+    color:#60A5FA;
+
+}
+
+.dark .tabla-monitoreo a:hover{
+
+    color:#93C5FD;
+
+}
+
+/* =========================================================
+🌙 MODO OSCURO
+========================================================= */
+.dark{
+  --bg:#111827;
+  --bg-soft:#1F2937;
+  --card:#374151;
+  --primary:#3B82F6;
+  --primary-hover:#2563EB;
+  --text:#F9FAFB;
+  --gray:#4B5563;
+  --correct:#16A34A;
+  --wrong:#EA580C;
+  --visited:#9333EA;
+  --shadow:rgba(0,0,0,0.4);
+}
+
+/* =========================================================
+🌎 ESTILOS GENERALES
+========================================================= */
+body{
+  font-family:Roboto,Arial,sans-serif;
+  background:var(--bg-soft);
+  color:var(--text);
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  transition:0.3s;
+}
+
+/* =========================================================
+📦 CONTENEDOR PRINCIPAL
+========================================================= */
+.container{
+  flex:1;
+  width:100%;
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+/* =========================================================
+🔥 OCULTAR
+========================================================= */
+.hidden{
+  display:none;
+}
+
+/* =========================================================
+🌙 BOTÓN TEMA
+========================================================= */
+
+
+#temaBtn{
+  position:fixed;
+
+  top:15px;
+  right:15px;
+
+  width:auto;
+
+  display:inline-flex;
+
+  align-items:center;
+  justify-content:center;
+
+  padding:10px 14px;
+
+  border-radius:10px;
+
+  z-index:1000;
+
+  white-space:nowrap;
+}
+
+/* =========================================================
+📦 CONFIGURACIÓN
+========================================================= */
+#config{
+  background:var(--card);
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0px 4px 15px var(--shadow);
+}
+
+/* =========================================================
+❓ CONTENEDOR PREGUNTA
+========================================================= */
+#preguntaBox{
+  width:100%;
+}
+
+/* =========================================================
+📘 TARJETA PREGUNTA
+========================================================= */
+.pregunta{
+  width:100%;
+  box-sizing:border-box;
+  background:var(--card);
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0px 4px 15px var(--shadow);
+  min-height:750px;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+
+/* =========================================================
+📝 TITULOS
+========================================================= */
+h2,h3{
+  color:var(--text);
+}
+
+h2{
+  font-size:32px;
+}
+
+h3{
+  font-size:24px;
+  line-height:1.6;
+  margin-bottom:20px;
+}
+
+/* =========================================================
+🔘 BOTONES
+========================================================= */
+button{
+  background:var(--primary);
+  color:white;
+  border:none;
+  padding:14px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+button:hover{
+  background:var(--primary-hover);
+  transform:scale(1.03);
+}
+
+/* =========================================================
+📚 CATEGORÍAS
+========================================================= */
+#categorias{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+  margin-top:15px;
+}
+
+#categorias label{
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  width:100%;
+
+  box-sizing:border-box;
+
+  background:var(--card);
+
+  padding:14px;
+
+  border-radius:10px;
+
+  border:1px solid var(--gray);
+
+  cursor:pointer;
+
+  transition:0.3s;
+
+  font-size:16px;
+}
+
+#categorias label:hover{
+  background:var(--primary);
+  color:white;
+}
+
+/* =========================================================
+🔘 CHECKBOX Y RADIO
+========================================================= */
+input[type="checkbox"],
+input[type="radio"]{
+  width:18px;
+  height:18px;
+}
+
+/* =========================================================
+🧭 NAVEGACIÓN
+========================================================= */
+#navPreguntas{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:20px 0;
+  justify-content:center;
+}
+
+/* 🔢 ITEMS */
+.nav-item{
+  width:42px;
+  height:42px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--gray);
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  color:var(--text);
+  transition:0.3s;
+}
+
+.nav-item:hover{
+  transform:scale(1.08);
+}
+
+/* 🟢 RESPUESTA CORRECTA */
+.correct{
+  background:var(--correct);
+  color:white;
+}
+
+/* 🟠 RESPUESTA INCORRECTA */
+.wrong{
+  background:var(--wrong);
+  color:white;
+}
+
+/* ⚫ VISTA */
+.vista{
+  background:var(--visited);
+  color:white;
+}
+
+/* =========================================================
+🖼️ IMÁGENES
+========================================================= */
+.pregunta img{
+  max-width:100%;
+  border-radius:12px;
+  margin-bottom:15px;
+}
+
+/* =========================================================
+✅ OPCIONES
+========================================================= */
+.opcion{
+  display:block;
+  margin:10px 0;
+  padding:16px;
+  border:1px solid var(--gray);
+  border-radius:12px;
+  cursor:pointer;
+  background:var(--card);
+  color:var(--text);
+  transition:0.3s;
+  font-size:17px;
+  line-height:1.6;
+}
+
+.opcion:hover{
+  background:var(--primary);
+  color:white;
+  transform:translateX(5px);
+}
+
+/* ✨ OPCIÓN SELECCIONADA */
+.opcion.seleccionada{
+  background:var(--primary);
+  color:white;
+  border-color:var(--primary);
+}
+
+/* 🌙 DARK */
+.dark .opcion.seleccionada{
+  background:#2563EB;
+}
+
+.dark .opcion:hover{
+  background:#1D4ED8;
+}
+
+/* =========================================================
+💡 PISTAS
+========================================================= */
+
+.acciones-pregunta{
+
+  margin-top:20px;
+
+  display:flex;
+
+  gap:12px;
+
+  flex-wrap:wrap;
+}
+
+.acciones-pregunta button{
+
+  margin:0;
+
+  padding:14px 20px;
+
+  font-size:16px;
+
+  min-width:160px;
+
+  height:52px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+}
+
+/* 📦 CONTENEDOR */
+
+.pista-contenedor{
+
+  margin-top:18px;
+
+  padding:16px;
+
+  border-radius:14px;
+  background:#FFF9E8;
+  border:1px solid #F4D98B;
+
+  animation:fadeIn .25s ease;
+}
+.pregunta button{
+
+  min-height:52px;
+}
+
+/* 🌙 DARK */
+
+.dark .pista-contenedor{
+
+  background:#3b3417;
+
+  border:1px solid #8b6f1f;
+}
+
+/* 🔝 HEADER */
+
+.pista-header{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:10px;
+
+  margin-bottom:10px;
+}
+
+/* 🖼️ ICONO */
+
+.icono-pista{
+
+  width:28px;
+  height:28px;
+
+  object-fit:contain;
+}
+
+/* 📝 TITULO */
+
+.titulo-pista{
+
+  font-weight:bold;
+
+  font-size:16px;
+
+  color:#b8860b;
+}
+
+/* 🌙 DARK */
+
+.dark .titulo-pista{
+  color:#ffd95c;
+}
+.separador-historial{
+    height: 10px;
+}
+
+/* 📄 TEXTO */
+
+.texto-pista{
+
+  margin:0;
+
+  line-height:1.7;
+
+  font-size:15px;
+
+  color:#333;
+}
+
+/* 🌙 DARK */
+
+.dark .texto-pista{
+  color:#f3f4f6;
+}
+
+/* =========================================================
+💬 FEEDBACK
+========================================================= */
+#feedback{
+  width:100%;
+  margin-top:auto;
+  font-size:17px;
+  line-height:1.8;
+}
+
+/* ✅ CORRECTO */
+.feedback-correcto{
+  margin-top:20px;
+ 
+  background:rgba(34,197,94,0.10);
+  border-left:5px solid #22C55E;
+  padding:18px;
+  border-radius:12px;
+}
+
+/* ❌ INCORRECTO */
+.feedback-incorrecto{
+  margin-top:20px;
+  background:rgba(245,158,11,0.15);
+  border-left:5px solid #F59E0B;
+  padding:18px;
+  border-radius:12px;
+}
+
+/* =========================================================
+🎥 VIDEO
+========================================================= */
+iframe{
+  width:100%;
+  height:320px;
+  border:none;
+  border-radius:14px;
+  margin-top:15px;
+}
+
+
+/* =========================================================
+🤖 BOTÓN CHAT
+========================================================= */
+#btnAbrirChat{
+  position:fixed;
+  bottom:2px;
+  right:10px;
+  width:150px;
+  cursor:pointer;
+  z-index:1000;
+  transition:0.3s;
+}
+
+
+#btnAbrirChat:hover{
+  transform:scale(1.1);
+}
+
+/* =========================================================
+💬 CHATBOX
+========================================================= */
+#chatbox{
+  display:none;
+  position:fixed;
+  bottom:120px;
+  right:20px;
+  width:340px;
+  height:500px;
+  background:var(--card);
+  border-radius:15px;
+  overflow:hidden;
+  border:1px solid var(--gray);
+  box-shadow:0px 4px 20px rgba(0,0,0,0.3);
+  z-index:999;
+}
+
+.calendario-grid{
+
+display:grid;
+
+grid-template-columns:repeat(6,50px);
+
+gap:10px;
+
+justify-content:center;
+
+margin-top:20px;
+
+}
+
+.dia{
+
+width:50px;
+
+height:50px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:10px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+.sin-actividad{
+
+background:#e0e0e0;
+
+}
+
+.nivel1{
+
+background:#b7f5b7;
+
+}
+
+.nivel2{
+
+background:#7ee67e;
+
+}
+
+.nivel3{
+
+background:#34c759;
+
+color:white;
+
+}
+
+.nivel4{
+
+background:#0b8a0b;
+
+color:white;
+
+}
+
+/* =========================================================
+🧠 HEADER CHAT
+========================================================= */
+#chatHeader{
+  background:var(--primary);
+  color:white;
+  padding:15px;
+  font-weight:bold;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#chatHeader span{
+  cursor:pointer;
+}
+
+/* =========================================================
+📩 MENSAJES CHAT
+========================================================= */
+#mensajes{
+  height:350px;
+  overflow-y:auto;
+  padding:10px;
+  background:var(--bg-soft);
+}
+
+/* 🤖 BOT */
+.mensaje-bot{
+  background:var(--gray);
+  color:var(--text);
+  padding:12px;
+  border-radius:12px;
+  margin:8px 0;
+  max-width:80%;
+  width:fit-content;
+  white-space:pre-line;
+  line-height:1.7;
+}
+
+/* 👤 USUARIO */
+.mensaje-usuario{
+  background:var(--primary);
+  color:white;
+  padding:12px;
+  border-radius:12px;
+  margin:8px 0 8px auto;
+  max-width:80%;
+  width:fit-content;
+  white-space:pre-line;
+  line-height:1.7;
+}
+
+/* =========================================================
+✍ INPUT CHAT
+========================================================= */
+#chatInput{
+  display:flex;
+  padding:10px;
+  gap:8px;
+}
+
+#entradaTexto{
+  flex:1;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid var(--gray);
+  outline:none;
+  background:var(--bg);
+  color:var(--text);
+  font-size:16px;
+}
+
+/* =========================================================
+📄 FOOTER
+========================================================= */
+footer{
+  width:100%;
+  padding:18px;
+  text-align:center;
+  background:var(--card);
+  color:var(--text);
+  border-top:1px solid var(--gray);
+  font-size:14px;
+}
+
+/* =========================================================
+📱 TABLETS
+========================================================= */
+@media screen and (max-width:900px){
+
+  #categorias{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .pregunta{
+    min-height:700px;
+  }
+
+  #chatbox{
+    width:90%;
+    right:5%;
+  }
+}
+
+/* =========================================================
+📱 TELÉFONOS
+========================================================= */
+/* =========================================================
+📱 TELÉFONOS (Corregido y Alineado)
+========================================================= */
+@media screen and (max-width:700px){
+
+  /* Reseteo global para asegurar que los paddings no sumen ancho extra */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-size:16px;
+  }
+
+  .container{
+    padding: 15px;
+    width: 100%;       /* Cambiado de 90% a 100% para evitar dobles márgenes */
+    max-width: 100%;
+  }
+
+  #config,
+  .pregunta{
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 650px;
+  }
+
+  h2{
+    font-size:24px;
+    text-align:center;
+    line-height:1.4;
+  }
+
+  h3{
+    font-size:20px;
+    line-height:1.7;
+  }
+
+  /* 🔘 BOTONES: Ahora ocupan el 100% exacto de la tarjeta */
+  button{
+    width: 100%;       /* Cambiado de 90% a 100% */
+    padding:16px;
+    font-size:18px;
+  }
+
+  /* 🔥 UNA POR FILA */
+  #categorias{
+    grid-template-columns:1fr;
+    gap:15px;
+    width: 100%;
+  }
+
+  /* 📚 CATEGORÍAS: Ahora se alinean perfectamente con los botones */
+  #categorias label{
+    width: 100%;       /* Cambiado de 90% a 100% */
+    max-width: 100%;   /* Cambiado de 90% a 100% */
+    font-size:20px;
+    padding:18px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"]{
+    width:22px;
+    height:22px;
+  }
+
+  .nav-item{
+    width:45px;
+    height:45px;
+    font-size:18px;
+  }
+
+  .opcion{
+    padding:14px;
+    font-size:19px;
+  }
+
+  #feedback{
+    font-size:18px;
+  }
+
+  iframe{
+    height:240px;
+  }
+
+  /* 💬 CHAT */
+  #chatbox{
+    width:95%;
+    right:2.5%;
+    bottom:120px;
+    height:520px;
+  }
+
+  #chatHeader{
+    font-size:18px;
+    padding:16px;
+  }
+
+  #mensajes{
+    height:350px;
+    font-size:17px;
+  }
+
+  .mensaje-bot,
+  .mensaje-usuario{
+    font-size:17px;
+    padding:14px;
+  }
+
+  #entradaTexto{
+    font-size:17px;
+    padding:14px;
+  }
+
+  #chatInput button{
+    width:auto;
+    padding:12px 18px;
+    font-size:16px;
+  }
+
+  .icono-pista{
+    width:60px;
+    cursor:pointer;
+    margin-top:10px;
+    transition:0.3s;
+  }
+
+  .icono-pista:hover{
+    transform:scale(1.1);
+  }
+
+  .pista-contenedor{
+    margin-top:15px;
+    padding:12px;
+    border-radius:12px;
+    background:#fff8d9;
+    border:1px solid #f3d76a;
+  }
+
+  .pista-header{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:8px;
+  }
+
+  .icono-pista{
+    width:28px;
+    height:28px;
+  }
+
+  .titulo-pista{
+    font-weight:bold;
+    color:#b8860b;
+  }
+
+  .acciones-pregunta{
+    margin-top:15px;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    width: 100%;
+  }
+
+  .acciones-pregunta button{
+    margin:0;
+    width: 100%;      /* Forzar que los botones de acción también se estiren uniformemente si se apilan */
+  }
+
+  .texto-pista{
+    margin:0;
+    line-height:1.5;
+    font-size:15px;
+  }
+
+  /* 🤖 IMAGEN CHAT */
+  #btnAbrirChat{
+    width:75px;
+    bottom:2px;
+    right:8px;
+  }
+
+  footer{
+    font-size:16px;
+    padding:18px;
+  }
+}
+
+
+/* =========================================================
+📱 EXTRA PEQUEÑOS
+========================================================= */
+@media screen and (max-width:400px){
+
+  h2{
+    font-size:20px;
+  }
+
+  h3{
+    font-size:16px;
+  }
+
+  .opcion{
+    font-size:14px;
+  }
+
+  .pregunta{
+    min-height:600px;
+  }
+
+  iframe{
+    height:220px;
+  }
+
+  #btnAbrirChat{
+    width:110px;
+  }
+}
+
+/* ========================================================= */
+/* LOGIN */
+/* ========================================================= */
+
+
+#loginBox{
+
+    width:100%;
+
+   min-height:80vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-card{
+    width:400px;
+    background:var(--card);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 4px 15px var(--shadow);
+    text-align:center;
+}
+
+.login-card input{
+    width:90%;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid var(--gray);
+    margin:20px 0;
+    font-size:16px;
+}
+
+#mensajeError{
+    color:red;
+    font-weight:bold;
+}
+
+/* ========================================================= */
+/* PANEL */
+/* ========================================================= */
+
+.bienvenida{
+    background:var(--card);
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 4px 15px var(--shadow);
+    text-align:center;
+}
+
+.panel-botones{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+/* ========================================================= */
+/* HISTORIAL */
+/* ========================================================= */
+
+.historial-card{
+    background:var(--card);
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 4px 15px var(--shadow);
+}
+
+.categoria-box{
+    margin-top:25px;
+}
+/* ========================================================= */
+/* 📊 GRID NIVELES HISTORIAL */
+/* ========================================================= */
+
+.niveles-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:15px;
+
+    margin-top:15px;
+
+}
+
+.nivel-box{
+
+    background:var(--bg-soft);
+
+    border:1px solid var(--gray);
+
+    padding:18px;
+
+    border-radius:14px;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+.nivel-box:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.nivel-box h4{
+
+    margin-top:0;
+
+    text-align:center;
+
+    color:var(--primary);
+
+    font-size:18px;
+
+}
+
+.nivel-box p{
+
+    margin:10px 0;
+
+    line-height:1.6;
+
+}
+.nivel-box{
+    background:var(--bg-soft);
+    border:1px solid var(--gray);
+    padding:15px;
+    border-radius:12px;
+    margin-top:15px;
+}
+
+.logro-item{
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+
+.desbloqueado{
+    background:#DCFCE7;
+    border:2px solid #22C55E;
+}
+
+.bloqueado{
+    background:#E5E7EB;
+    opacity:0.7;
+}
+
+body.dark .bloqueado{
+    background:#374151;
+}
+
+/* ========================================================= */
+/* LOGROS */
+/* ========================================================= */
+
+.logros-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:20px;
+
+    margin-top:20px;
+
+}
+
+.logro-item{
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+    transition:0.3s;
+
+    box-shadow:
+    0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.logro-item h3{
+
+    margin-bottom:10px;
+
+    font-size:20px;
+
+}
+
+.logro-item p{
+
+    font-size:14px;
+
+    line-height:1.5;
+
+}
+
+.desbloqueado{
+
+    
+    background:#E8F8EE;
+    border:2px solid #28a745;
+
+}
+
+.bloqueado{
+
+    background:#eeeeee;
+
+    border:2px solid #999;
+
+    opacity:0.7;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+    .logros-grid{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+    #cedulaInput{
+    font-size:12px;
+}
+
+}
+
+@media(max-width:600px){
+
+    .logros-grid{
+
+        grid-template-columns:1fr;
+
+    }
+    #cedulaInput{
+    font-size:12px;
+}
+
+}
+
+@media(max-width:900px){
+
+    .niveles-grid{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .niveles-grid{
+
+        grid-template-columns:1fr;
+
+    }
+    
+
+}
+
+.retro-img{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.retro-img img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:12px;
+}
+
+.retro-video{
+    margin-top: 15px;
+}
+
+.retro-video a{
+    display:inline-block;
+    padding:10px 15px;
+    background:#e53935;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+/* =========================================================
+🌙 MODO OSCURO LOGROS
+========================================================= */
+
+body.dark .logro-item{
+    color:#F9FAFB;
+}
+
+body.dark .logro-item h3{
+    color:#F9FAFB;
+}
+
+body.dark .logro-item p{
+    color:#E5E7EB;
+}
+
+body.dark .desbloqueado{
+    background:#14532D;
+    border:2px solid #22C55E;
+    color:white;
+}
+
+body.dark .bloqueado{
+    background:#374151;
+    border:2px solid #6B7280;
+    color:#F3F4F6;
+    opacity:0.9;
+}
+
+@media screen and (max-width:700px){
+
+    iframe{
+        width:100% !important;
+        height:220px !important;
+        max-width:100%;
+    }
+
+}
+
+/* =========================================================
+⏳ TEMPORIZADOR EXAMEN
+========================================================= */
+
+#temporizador{
+    position:sticky;
+    top:10px;
+    z-index:100;
+    background:#dc2626;
+    color:white;
+    padding:12px 20px;
+    border-radius:12px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.dark #temporizador{
+    background:#991b1b;
+}
+
+.tiempo-alerta{
+    animation:parpadeo 1s infinite;
+}
+
+@keyframes parpadeo{
+    0%{opacity:1;}
+    50%{opacity:.4;}
+    100%{opacity:1;}
+}
+
+/* =========================================================
+⏳ BARRA SUPERIOR EXAMEN
+========================================================= */
+
+/* =========================================================
+⏳ BARRA SUPERIOR EXAMEN
+========================================================= */
+
+.barra-superior-examen{
+    margin-top:10px; 
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.barra-superior-examen .btn-regresar{
+
+    width:auto !important;
+    margin:0 !important;
+    flex:0 0 auto;
+    padding:10px 16px;
+}
+
+.barra-superior-examen #temporizador{
+
+    width:auto !important;
+    margin:0 !important;
+    flex:0 0 auto;
+}
+
+.btn-regresar{
+   margin:0;
+    width:auto;
+        font-size:16px;
+    padding:10px 20px;
+  }
+#historialBox,
+#logrosBox,
+#config{
+    margin-top:15px;
+}
+#temporizador{
+
+    background:#dc2626;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    margin:0;
+}
+
+.dark #temporizador{
+
+    background:#991b1b;
+}
+@media screen and (max-width:700px){
+
+    .barra-superior-examen{
+    margin-top:10px; 
+        display:flex;
+        flex-direction:row !important;
+        justify-content:space-between;
+        align-items:center;
+        flex-wrap:nowrap;
+        gap:10px;
+    }
+
+    .barra-superior-examen .btn-regresar{
+
+        width:auto !important;
+        padding:8px 12px;
+        font-size:12px;
+    }
+
+    .barra-superior-examen #temporizador{
+
+        width:auto !important;
+        font-size:12px;
+        padding:8px 12px;
+    }
+
+}
