@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Producción Didáctica
+</title>
+
+<link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ========================================================= -->
+<!-- 🌙 TEMA -->
+<!-- ========================================================= -->
+
+<button id="temaBtn" onclick="cambiarTema()">
+🌙 Modo Oscuro
+</button>
+
+<!-- ========================================================= -->
+<!-- LOGIN -->
+<!-- ========================================================= -->
+
+<div id="loginBox">
+
+<div class="login-card">
+
+<h1>
+Prueba Nacional Estandarizada
+Sumativa de Especialidades Técnicas
+</h1>
+
+<h2>
+Ingreso de Estudiante
+</h2>
+
+<input
+type="text"
+id="cedulaInput"
+placeholder="Digite tu número de cédula (Ejemplo:120250305)"
+>
+
+<button onclick="comprobarCedula()">
+Comprobar
+</button>
+
+<p id="mensajeError"></p>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- PANEL ESTUDIANTE -->
+<!-- ========================================================= -->
+
+<div id="panelEstudiante" class="hidden">
+
+<div class="bienvenida">
+
+<h2 id="nombreEstudiante"></h2>
+
+<div class="panel-botones">
+
+<button onclick="iniciarModoExamen()">
+📝 Modo Examen
+</button>
+
+<button onclick="mostrarPracticas()">
+📘 Prácticas
+</button>
+
+<button onclick="mostrarHistorial()">
+📊 Ver Historial
+</button>
+
+<button onclick="mostrarLogros()">
+🏆 Logros
+</button>
+
+<button onclick="mostrarFavoritas()">
+⭐ Mis Favoritas
+</button>
+
+<button
+id="btnMonitoreo"
+class="hidden"
+onclick="mostrarMonitoreo()">
+📈 Monitoreo
+</button>
+
+<button onclick="cerrarSesion()">
+🚪 Salir
+</button>
+</div>
+
+<p class="modo-examen-info">
+
+
+
+📝 Modo Examen:
+Realiza una evaluación automática con preguntas
+de dificultad media y difícil.
+</p>
+
+<p class="modo-examen-info"></p>
+📘 Prácticas:
+Permite practicar seleccionando categorías
+y niveles personalizados.
+</p>
+
+<p class="modo-examen-info"></p>
+📊 Ver Historial:
+Muestra estadísticas, progreso y rendimiento
+por categoría.
+
+</p>
+
+<p class="modo-examen-info"></p>
+🏆 Logros:
+Visualiza los logros desbloqueados
+durante el uso de la plataforma.
+</p>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- HISTORIAL -->
+<!-- ========================================================= -->
+
+<div id="historialBox" class="hidden"></div>
+
+<!-- ========================================================= -->
+<!-- LOGROS -->
+<!-- ========================================================= -->
+
+<div id="logrosBox" class="hidden"></div>
+
+<div id="monitoreoBox" class="hidden"></div>
+
+<!-- ========================================================= -->
+<!-- CONFIGURACIÓN -->
+<!-- ========================================================= -->
+
+<div id="config" class="hidden">
+
+<h2>
+Configurar Práctica
+</h2>
+
+<div class="instrucciones">
+
+<h3>
+📘 Instrucciones de Uso
+</h3>
+
+<ol>
+
+<li>
+Seleccione una o varias categorías para practicar.
+</li>
+
+<li>
+Seleccione el nivel deseado de las preguntas.
+</li>
+
+<li>
+Presione el botón iniciar.
+</li>
+</ol>
+
+
+<h3>
+📘 Recomendaciones
+</h3>
+
+<ul>
+
+<li>
+Lea cuidadosamente cada pregunta.
+</li>
+
+<li>
+Puede navegar entre preguntas utilizando
+los números superiores.
+</br></br>
+Simbología de los colores en las pestañas
+</li>
+
+🟢 Correcta<br>
+🟠 Incorrecta<br>
+🟣 Vista sin responder
+
+
+
+<li>
+Puede utilizar pistas
+</li>
+
+<li>
+Puede activar modo oscuro o claro según prefiera.
+</li>
+
+<li>
+Puede utilizar el asistente virtual
+para atender dudas generales.
+</li>
+
+</ul>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- CATEGORÍAS -->
+<!-- ========================================================= -->
+
+<h3>
+Categorías
+</h3>
+
+<div id="categorias"></div>
+
+<!-- ========================================================= -->
+<!-- NIVEL -->
+<!-- ========================================================= -->
+
+<h3>
+Nivel
+</h3>
+
+<label>
+
+<input
+type="radio"
+name="nivel"
+value="facil"
+>
+
+Fácil
+
+</label>
+
+<br>
+
+<label>
+
+<input
+type="radio"
+name="nivel"
+value="medio"
+>
+
+Medio
+
+</label>
+
+<br>
+
+<label>
+
+<input
+type="radio"
+name="nivel"
+value="dificil"
+>
+
+Difícil
+
+</label>
+
+<br>
+
+<label>
+
+<input
+type="radio"
+name="nivel"
+value="todos"
+checked
+>
+
+Todos
+
+</label>
+
+<br><br>
+
+<button onclick="iniciar()">
+Iniciar
+</button>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- QUIZ -->
+<!-- ========================================================= -->
+
+<div id="quiz" class="hidden">
+
+<div class="barra-superior-examen">
+
+    <button class="btn-regresar"
+            onclick="volverPracticas()">
+        ⬅ Regresar
+    </button>
+
+    <button class="hidden"
+        id="btnFinalizar"
+        disabled
+        onclick="finalizarExamenManual()">
+        ✅ Finalizar Examen
+    </button>
+
+    <div id="temporizador" class="hidden">
+        ⏳ <span id="reloj">03:00:00</span>
+    </div>
+
+</div>
+
+<div id="navPreguntas"></div>
+
+<div id="preguntaBox"></div>
+
+</div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- 🤖 BOTÓN CHAT -->
+<!-- ========================================================= -->
+
+<img
+id="btnAbrirChat"
+src="imagenes/chatbox.png"
+alt="Chat"
+title="Ayuda"
+>
+
+<!-- ========================================================= -->
+<!-- 💬 CHATBOX -->
+<!-- ========================================================= -->
+
+<div id="chatbox">
+
+<div id="chatHeader">
+
+🤖 Asistente Virtual
+
+<span onclick="cerrarChat()">
+✖
+</span>
+
+</div>
+
+<div id="mensajes"></div>
+
+<div id="chatInput">
+
+<input
+type="text"
+id="entradaTexto"
+placeholder="Escribe tu duda..."
+>
+
+<button onclick="enviarMensaje()">
+Enviar
+</button>
+
+</div>
+
+</div>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<!-- ========================================================= -->
+<!-- SCRIPT -->
+<!-- ========================================================= -->
+
+<script type="module" src="funciones.js"></script>
+
+</body>
+
+<footer>
+
+Realizado por Fabian Alvarado © 2026 |
+Producción Didáctica UNA
+
+</footer>
+
+</html>
